@@ -1,0 +1,32 @@
+
+html {
+    /* background-color: black; */
+}
+
+.container {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap; 
+    border: 1px solid;
+    border-color: red;
+    justify-content: center;
+
+}
+
+.item{
+    border: 1px solid;
+    border-color: green;
+    flex-grow: 1;  
+    /* width: 474px; */
+    /* height: 40vh; */
+}
+
+/* .title {
+    width: 128px;
+    color: white;
+} */
+
+img {
+    /* max-width: 100%; */
+    min-width: 100%;
+}
