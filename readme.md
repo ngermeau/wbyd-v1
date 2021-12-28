@@ -16,7 +16,6 @@
 - full metal jacket 
 - massacre a la tronconeuse 
 - bagdad cafe 
-- tous les matins du monde 
 - the good, the bad and the ugly 
 - the big lebowski 
 - fear and loathing in las vegas 
@@ -28,4 +27,13 @@
 - the rocky horror picture show 
 - the quest of holy grail 
 - scarface 
+
+# Todo
+
+- change text to display properly with correct font and color    
+- take care of all the format (desktop, tablet, mobile)  
+- configure correct mouse over   
+- add nice loading animation    
+- add nice reordering animation   
+- create selection page     
 
