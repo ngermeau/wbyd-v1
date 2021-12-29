@@ -1,6 +1,9 @@
 
 html {
-    background-color: #2A363B;
+    /* background-color: #2A363B; */
+    background-color: #181818;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
 }
 
 .container {
@@ -11,12 +14,39 @@ html {
     row-gap: 15px;
 }
 
+@keyframes slide-in {
+ from {
+      transform: translateY(-150%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+}
+
 .item{
-    flex-grow: 1;  
+    animation: slide-in 1500ms;
+    animation-timing-function: ease-out;
+}
+
+.item:hover{
+    opacity: 0.5;
+}
+
+.medium {
+    font-size: 36px;
+    color:#FEDD2F;
+}
+
+.large {
+    font-size: 72px;
+    color:#FEDD2F;
 }
 
 .title {
     color: white;
-    width: 190; 
+    max-width: 190; 
     height: 270;
+    font-size: 18px;
 }
