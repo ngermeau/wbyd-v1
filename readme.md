@@ -1,12 +1,14 @@
 # Todo
 
 [ ] configure correct mouse over   
-[ ] use only movie poster for movies and resize them to make them super sharp
+[ ] resize movies item to make them super sharp 
 [ ] take care of all the format with media queries (desktop, tablet, mobile)  
 [ ] create selection page     
-[ ] add nice animation when loading page and going to selection page 
+[ ] add nice animation when loading page (raining movies) 
+[ ] add nice animation when going to selection page 
 [ ] loading on scroll
 [ ] add google analytics and keyword  
+[ ] filtering based on categories (horror, war, children...)
 [x]change text to display properly with correct font and color    
 [x] add nice loading animation    
 

@@ -17,11 +17,9 @@ html {
 @keyframes slide-in {
  from {
       transform: translateY(-150%);
-      opacity: 0;
     }
     to {
       transform: translateY(0%);
-      opacity: 1;
     }
 }
 
@@ -31,7 +29,15 @@ html {
 }
 
 .item:hover{
-    opacity: 0.5;
+    animation-name: example;
+    animation-duration: 0.25s;
+}
+
+@keyframes example {
+    0%   {border-left: 2px solid #ffffff;}
+    25%  {border-left: 3px solid #ffe6e6;}
+    50%  {border-left: 4px solid #ff8080;}
+    100% {border-left: 5px solid #ff0000;}
 }
 
 .medium {
