@@ -10,7 +10,7 @@ files.forEach((filename) => {
 
   sharp(originalImage)
     .resize(190,270)
-    .sharpen()
+    // .sharpen()
     .jpeg({ mozjpeg: true })
     .toFile(path.resolve(__dirname, "img/" + filename));
 });

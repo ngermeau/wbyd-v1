@@ -1,3 +1,14 @@
+# Todo
+
+[ ] configure correct mouse over   
+[ ] use only movie poster for movies and resize them to make them super sharp
+[ ] take care of all the format with media queries (desktop, tablet, mobile)  
+[ ] create selection page     
+[ ] add nice animation when loading page and going to selection page 
+[ ] loading on scroll
+[ ] add google analytics and keyword  
+[x]change text to display properly with correct font and color    
+[x] add nice loading animation    
 
 # Movies list 
 
@@ -27,13 +38,27 @@
 - the rocky horror picture show 
 - the quest of holy grail 
 - scarface 
-
-# Todo
-
-- change text to display properly with correct font and color    
-- take care of all the format (desktop, tablet, mobile)  
-- configure correct mouse over   
-- add nice loading animation    
-- add nice reordering animation   
-- create selection page     
+the godfather 
+trainspotting 
+pulp fiction
+goodfellas
+indiana jones 
+the matrix 
+the silence of the lambs 
+fight club 
+das boot 
+flew over a coucou's nest
+the name of the rose 
+eternal sunshine of a spotless mind
+there will be blood 
+A clockwork orange 
+casablanca 
+dr strangelove 
+psycho 
+vertigo 
+modern times 
+memento 
+raging bull 
+chinatown 
+ikuru
 
