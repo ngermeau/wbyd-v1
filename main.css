@@ -23,7 +23,6 @@ h1,h2,h3,p,ul {
     margin: 0;
 }
 
-
 ul {
     list-style-type: none;
 }
@@ -67,10 +66,12 @@ ul {
 }
 
 .movie__year {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     background-color: #222;
-    padding: 0.45rem 0.1rem;
+    /* padding: 0.45rem 0.1rem; */
+    padding: 0.45rem 0.1rem 0; 
     color: white;
+    text-align: center;
 }
 
 .movie__details{
@@ -83,5 +84,3 @@ ul {
 .movie__running, .movie__director, .movie__tag {
     font-weight: 400;
 }
-
-
