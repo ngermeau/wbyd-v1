@@ -1,0 +1,164 @@
+{
+    "movies": [
+        {
+            "title": "taxi driver",
+            "year": 1976,
+            "director": "Martin Scorsese",
+            "runningTime": "1h54",
+            "thumbPath": "img/taxi-driver.jpg",
+            "tag": "Crime - Drama",
+            "imdbScore": "8.2",
+            "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+        },
+        {
+            "title": "Pulp fiction",
+            "year": 1994,
+            "director": "Quentin Tarantino",
+            "runningTime": "2h34",
+            "thumbPath": "img/pulp-fiction.jpg",
+            "tag": "Crime - Drama",
+            "imdbScore": "8.9",
+            "synopsis": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action."
+        },
+        {
+            "title": "Alien 1",
+            "year": 1979,
+            "director": "Ridley Scott",
+            "runningTime": "1h57",
+            "thumbPath": "img/alien-1.jpg",
+            "tag": "Horror - SciFi",
+            "imdbScore": "8.5",
+            "synopsis": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission."
+        },
+        {
+            "title": "Apocalypse Now",
+            "year": 1979,
+            "director": "Francis Ford Coppola",
+            "runningTime": "2h27",
+            "thumbPath": "img/apocalypse-now.jpg",
+            "tag": "Drama - Mystery - War",
+            "imdbScore": "8.5",
+            "synopsis": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
+        },
+        {
+            "title": "Blade Runner",
+            "year": 1982,
+            "director": "Ridley Scott",
+            "runningTime": "1h57",
+            "thumbPath": "img/blade-runner.jpg",
+            "tag": "Action - Drama - SciFi",
+            "imdbScore": "8.1",
+            "synopsis": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator."
+        },
+        {
+            "title": "Brazil",
+            "year": 1985,
+            "director": "Terry Gilliam",
+            "runningTime": "2h12",
+            "thumbPath": "img/brazil.jpg",
+            "tag": "Drama - SciFi",
+            "imdbScore": "7.9",
+            "synopsis": "A bureaucrat in a dystopic society becomes an enemy of the state as he pursues the woman of his dreams."
+        },
+        {
+            "title": "Eraserhead",
+            "year": 1977,
+            "director": "David Lynch",
+            "runningTime": "1h29",
+            "thumbPath": "img/eraserhead.jpg",
+            "tag": "Fantasy - Horror",
+            "imdbScore": "7.3",
+            "synopsis": "Henry Spencer tries to survive his industrial environment, his angry girlfriend, and the unbearable screams of his newly born mutant child."
+        },
+        {
+            "title": "Exotica",
+            "year": 1994,
+            "director": "Atom Egoyan",
+            "runningTime": "1h43",
+            "thumbPath": "img/exotica.jpg",
+            "tag": "Drama",
+            "imdbScore": "7.0",
+            "synopsis": "A man plagued by neuroses frequents the club Exotica in an attempt to find solace, but even there his past is never far away."
+        },
+        {
+            "title": "Requiem for a dream",
+            "year": 2000,
+            "director": "Darren Aronofsky",
+            "runningTime": "1h42",
+            "thumbPath": "img/requiem-for-a-dream.jpg",
+            "tag": "Drama",
+            "imdbScore": "8.3",
+            "synopsis": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep."
+        },
+        {
+            "title": "Reservoir Dogs",
+            "year": 1992,
+            "director": "Quentin Tarantino",
+            "runningTime": "1h39",
+            "thumbPath": "img/reservoir-dogs.jpg",
+            "tag": "Crime - Thriller",
+            "imdbScore": "8.3",
+            "synopsis": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant."
+        },
+        {
+            "title": "The Shining",
+            "year": 1980,
+            "director": "Stanley Kubrick",
+            "runningTime": "2h26",
+            "thumbPath": "img/the-shining.jpg",
+            "tag": "Drama - Horror",
+            "imdbScore": "8.4",
+            "synopsis": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future."
+        },
+        {
+            "title": "The Texas Chain Saw Massacre",
+            "year": 1974,
+            "director": "Tobe Hooper",
+            "runningTime": "1h23",
+            "thumbPath": "img/the-texas-chainsaw-massacre.jpg",
+            "tag": "Horror",
+            "imdbScore": "7.4",
+            "synopsis": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw."
+        },
+        {
+            "title": "Bagdad Cafe",
+            "year": 1987,
+            "director": "Percy Adlon",
+            "runningTime": "1h35",
+            "thumbPath": "img/bagdad-cafe.jpg",
+            "tag": "Comedy - Drama",
+            "imdbScore": "7.4",
+            "synopsis": "A lonely German woman ends up in the most desolate motel on Earth and decides to make it brighter."
+        },
+        {
+            "title": "The Good, the Bad and the Ugly",
+            "year": 1966,
+            "director": "Sergio Leone",
+            "runningTime": "2h58",
+            "thumbPath": "img/the-good-the-bad-and-the-ugly.jpg",
+            "tag": "Adventure - Western",
+            "imdbScore": "8.8",
+            "synopsis": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+        },
+        {
+            "title": "The Big Lebowski",
+            "year": 1998,
+            "director": "Joel and Ethan Coen",
+            "runningTime": "1h57",
+            "thumbPath": "img/the-big-lebowski.jpg",
+            "tag": "Comedy - Crime",
+            "imdbScore": "8.1",
+            "synopsis": "Ultimate L.A. slacker Jeff 'The Dude' Lebowski, mistaken for a millionaire of the same name, seeks restitution for a rug ruined by debt collectors, enlisting his bowling buddies for help while trying to find the millionaire's missing wife."
+        },
+        {
+            "title": "Fear and Loathing in Las Vegas",
+            "year": 1998,
+            "director": "Terry Gilliam",
+            "runningTime": "1h58",
+            "thumbPath": "img/fear-and-loathing-in-las-vegas.jpg",
+            "tag": "Adventure - Comedy - Drama",
+            "imdbScore": "7.5",
+            "synopsis": "An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades."
+        }
+    ]
+}
