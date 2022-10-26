@@ -169,6 +169,166 @@
             "tag": "Adventure - Drama - Fantasy",
             "imdbScore": "7.5",
             "synopsis": "On the run after murdering a man, accountant William Blake encounters a strange aboriginal American man named Nobody who prepares him for his journey into the spiritual world."
+        },
+        {
+            "title": "Blue Velvet",
+            "year": 1986,
+            "director": "David Lynch",
+            "runningTime": "2h00",
+            "thumbPath": "img/blue-velvet.jpg",
+            "tag": "Drama - Crime - Mystery",
+            "imdbScore": "7.7",
+            "synopsis": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child."
+        },
+        {
+            "title": "The Thing",
+            "year": 1982,
+            "director": "John Carpenter",
+            "runningTime": "1h49",
+            "thumbPath": "img/the-thing.jpg",
+            "tag": "Mystery - Horror - SciFi",
+            "imdbScore": "8.2",
+            "synopsis": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims."
+        },
+        {
+            "title": "The Rocky Horror Picture Show",
+            "year": 1975,
+            "director": "Jim Sharman",
+            "runningTime": "1h40",
+            "thumbPath": "img/the-rocky-horror-picture-show.jpg",
+            "tag": "Comedy - Horror - Musical",
+            "imdbScore": "7.4",
+            "synopsis": "A newly-engaged couple have a breakdown in an isolated area and must seek shelter at the bizarre residence of Dr. Frank-n-Furter."
+        },
+        {
+            "title": "Monty Python and the Holy Grail",
+            "year": 1975,
+            "director": "Terry Gilliam - Terry Jones",
+            "runningTime": "1h31",
+            "thumbPath": "img/monthy-python-and-the-holy-grail.jpg",
+            "tag": "Adventure - Comedy - Fantasy",
+            "imdbScore": "8.2",
+            "synopsis": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles."
+        },
+        {
+            "title": "Scarface",
+            "year": 1983,
+            "director": "Brian De Palma",
+            "runningTime": "2h50",
+            "thumbPath": "img/scarface.jpg",
+            "tag": "Crime - Drama",
+            "imdbScore": "8.3",
+            "synopsis": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed."
+        },
+        {
+            "title": "2001 A Space Oddyssey",
+            "year": 1968,
+            "director": "Stanley Kubrick",
+            "runningTime": "2h29",
+            "thumbPath": "img/2001-a-space-odyssey.jpg",
+            "tag": "Adventure - SciFi",
+            "imdbScore": "8.3",
+            "synopsis": "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000."
+        },
+        {
+            "title": "The Godfather",
+            "year": 1972,
+            "director": "Francis Ford Coppola",
+            "runningTime": "2h55",
+            "thumbPath": "img/the-godfather.jpg",
+            "tag": "Crime - Drama",
+            "imdbScore": "9.2",
+            "synopsis": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
+        },
+        {
+            "title": "Trainspotting",
+            "year": 1996,
+            "director": "Danny Boyle",
+            "runningTime": "1h33",
+            "thumbPath": "img/trainspotting.jpg",
+            "tag": "Drama",
+            "imdbScore": "8.1",
+            "synopsis": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends."
+        },
+        {
+            "title": "Goodfellas",
+            "year": 1990,
+            "director": "Martin Scorsese",
+            "runningTime": "2h25",
+            "thumbPath": "img/goodfellas.jpg",
+            "tag": "Biography - Crime - Drama",
+            "imdbScore": "8.7",
+            "synopsis": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
+        },
+        {
+            "title": "The Matrix",
+            "year": 1999,
+            "director": "Lana and Lilly Wachowski",
+            "runningTime": "2h16",
+            "thumbPath": "img/the-matrix.jpg",
+            "tag": "Action - SciFi",
+            "imdbScore": "8.7",
+            "synopsis": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+        },
+        {
+            "title": "The Silence of the lambs",
+            "year": 1991,
+            "director": "Jonathan Demme",
+            "runningTime": "1h58",
+            "thumbPath": "img/the-silence-of-the-lambs.jpg",
+            "tag": "Crime - Drama - Thriller",
+            "imdbScore": "8.6",
+            "synopsis": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+        },
+        {
+            "title": "Barry Lyndon",
+            "year": 1975,
+            "director": "Stanley Kubrick",
+            "runningTime": "3h05",
+            "thumbPath": "img/barry-lyndon.jpg",
+            "tag": "Adventure - Drama - War",
+            "imdbScore": "8.1",
+            "synopsis": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England."
+        },
+        {
+            "title": "Fight Club",
+            "year": 1999,
+            "director": "David Fincher",
+            "runningTime": "2h19",
+            "thumbPath": "img/fight-club.jpg",
+            "tag": "Drama",
+            "imdbScore": "8.1",
+            "synopsis": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
+        },
+        {
+            "title": "Das boot",
+            "year": 1981,
+            "director": "Wolfgang Petersen",
+            "runningTime": "2h29",
+            "thumbPath": "img/das-boot.jpg",
+            "tag": "Drama - War",
+            "imdbScore": "8.4",
+            "synopsis": "A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic world of a submariner in World War II."
+        },
+        {
+            "title": "One Flew Over the Cuckoo's Nest",
+            "year": 1975,
+            "director": "Milos Forman",
+            "runningTime": "2h13",
+            "thumbPath": "img/one-flew-over-the-cuckoos-nest.jpg",
+            "tag": "Drama",
+            "imdbScore": "8.7",
+            "synopsis": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse."
+        },
+        {
+            "title": "The Name of the Rose",
+            "year": 1986,
+            "director": "Jean-Jacques Annaud",
+            "runningTime": "2h10",
+            "thumbPath": "img/the-name-of-the-rose.jpg",
+            "tag": "Drama - History - Mystery",
+            "imdbScore": "7.7",
+            "synopsis": "An intellectually nonconformist friar investigates a series of mysterious deaths in an isolated abbey."
         }
     ]
 }

@@ -27,22 +27,19 @@
 [x] the good, the bad and the ugly   
 [x] the big lebowski   
 [x] fear and loathing in las vegas   
-[ ] deadman   
-[ ] blue velvet  
-[ ] the doom generation   
-[ ] evil dead   
-[ ] the thing   
-[ ] the rocky horror picture show   
-[ ] the quest of holy grail   
-[ ] scarface   
-[ ] 2001 a space oddyssey   
-[ ] the godfather   
-[ ] trainspotting   
-[ ] goodfellas  
-[ ] indiana jones   
-[ ] the matrix   
-[ ] the silence of the lambs   
-[ ] barry lyndon   
+[x] deadman   
+[x] blue velvet  
+[x] the thing   
+[x] the rocky horror picture show   
+[x] the quest of holy grail   
+[x] scarface   
+[x] 2001 a space oddyssey   
+[x] the godfather   
+[x] trainspotting   
+[x] goodfellas  
+[x] the matrix   
+[x] the silence of the lambs   
+[x] barry lyndon   
 [ ] fight club   
 [ ] das boot   
 [ ] flew over a coucou's nest  
@@ -57,8 +54,34 @@
 [ ] vertigo   
 [ ] modern times   
 [ ] memento   
+[ ] fargo
 [ ] raging bull   
 [ ] chinatown   
-[ ] ikuru  
 [ ] city of the god   
+[ ] the deer hunter
+[ ] platoon
+[ ] the mission
+[ ] No Country for Old Men
+[ ] mad max
+[ ] parasite 
+[ ] birdman
+[ ] there will be blood
+[ ] Schindler's List
+[ ] inception
+[ ] jaws
+[ ] amadeus 
+[ ] once upon a time in america 
+[ ] spirited away
+[ ] breaking the waves 
+[ ] American psycho 
+ 
+possible 
+[ ]  12 Angry Men
+[ ] ikuru  
+[ ] metropolis 
+[ ] in the names of the father 
+[ ] le salaire de la peur 
+[ ] casino 
+[ ] la confidential
+
 

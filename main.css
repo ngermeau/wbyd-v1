@@ -50,7 +50,7 @@ li {
 }
 
 .movie {
-    width: 13rem;
+    flex-basis: 13rem;
     display: flex;
     flex-direction: column;
 }
