@@ -9,6 +9,7 @@ body {
     height: 100vh;
     font-family: 'Barlow', sans-serif;
     background-color: #dad7cd;
+    /* background-color: #C4C0B0; */
 }
 
 img { 
@@ -22,7 +23,9 @@ h1,h2,h3,p,ul {
     padding: 0;
     margin: 0;
 }
-
+h1,h2,h3 {
+    line-height: 1.3rem;
+}
 ul {
     list-style-type: none;
 }
@@ -63,13 +66,13 @@ ul {
 
 .movie__title {
     text-transform: uppercase;
+    padding-top: 0.1rem;
 }
 
 .movie__year {
     font-size: 0.7rem;
     background-color: #222;
-    /* padding: 0.45rem 0.1rem; */
-    padding: 0.45rem 0.1rem 0; 
+    padding: 0.25rem 0.1rem 0; 
     color: white;
     text-align: center;
 }

@@ -26,7 +26,7 @@
 [x] bagdad cafe   
 [x] the good, the bad and the ugly   
 [x] the big lebowski   
-[ ] fear and loathing in las vegas   
+[x] fear and loathing in las vegas   
 [ ] deadman   
 [ ] blue velvet  
 [ ] the doom generation   

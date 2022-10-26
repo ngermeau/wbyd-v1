@@ -159,6 +159,16 @@
             "tag": "Adventure - Comedy - Drama",
             "imdbScore": "7.5",
             "synopsis": "An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades."
+        },
+        {
+            "title": "Deadman",
+            "year": 1995,
+            "director": "Jim Jarmush",
+            "runningTime": "2h01",
+            "thumbPath": "img/deadman.jpg",
+            "tag": "Adventure - Drama - Fantasy",
+            "imdbScore": "7.5",
+            "synopsis": "On the run after murdering a man, accountant William Blake encounters a strange aboriginal American man named Nobody who prepares him for his journey into the spiritual world."
         }
     ]
 }
