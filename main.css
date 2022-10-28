@@ -8,7 +8,9 @@ body {
     margin: 0;
     height: 100vh;
     font-family: 'Barlow', sans-serif;
-    background-color: #dad7cd;
+    /* background-color: #dad7cd; */
+    background-color: #151515;
+    color: #EBDBC2;
 }
 
 img { 
@@ -54,11 +56,13 @@ li {
     right: 0rem;
     width: 2.5rem;
     height: 2.5rem;
-    border: 3px solid black; 
+    border: 2px solid #F4533F;
     line-height: 1;
     text-align: center;
-    background-color: #222;
-    color: white;
+    /* background-color: #222; */
+    background-color: #151515;
+    color: #EBDBC2;
+    /* color: white; */
 }
 
 .movie {
@@ -70,6 +74,7 @@ li {
 .begin{
     border-top: 2px solid #222;
     position: relative;
+    color: #F4533F;
 }
 
 .row {
@@ -110,8 +115,6 @@ li {
     align-self: flex-end;
 }
 
-.title {
-}
 
 .end {
     border-bottom: 4px solid #222;
@@ -132,13 +135,19 @@ li {
 .movie__title {
     text-transform: uppercase;
     padding-top: 0.1rem;
+    color: #F4533F;
 }
 
 .movie__year {
     font-size: 0.7rem;
-    background-color: #222;
+    /* background-color: #222; */
     padding: 0.25rem 0.1rem 0; 
-    color: white;
+    /* color: white; */
+    /* background-color: #EBDBC2; */
+    /* border-bottom: 0.3px solid #F4533F;
+    border-right: 0.3px solid #F4533F;
+    border-left: 0.3px solid #F4533F; */
+    color: #EBDBC2;
     text-align: center;
 }
 
