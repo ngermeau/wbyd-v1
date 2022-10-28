@@ -40,11 +40,10 @@
 [x] the matrix   
 [x] the silence of the lambs   
 [x] barry lyndon   
-[ ] fight club   
-[ ] das boot   
-[ ] flew over a coucou's nest  
-[ ] the name of the rose   
-[ ] eternal sunshine of a spotless mind  
+[x] fight club   
+[x] das boot   
+[x] flew over a coucou's nest  
+[x] the name of the rose   
 [ ] there will be blood   
 [ ] A clockwork orange   
 [ ] full metal jacket   
@@ -74,14 +73,34 @@
 [ ] spirited away
 [ ] breaking the waves 
 [ ] American psycho 
+[ ] magnolia 
+[ ] the terminator
+[ ] West Side Story
+[ ] the pianist 
+[ ] The Thin Red Line
+[ ] easy rider
+[ ] clerks 
+[ ] Akira 
+[ ] Lost highway 
+[ ] The fly
  
-possible 
+## Candidates...
 [ ]  12 Angry Men
 [ ] ikuru  
 [ ] metropolis 
 [ ] in the names of the father 
 [ ] le salaire de la peur 
-[ ] casino 
-[ ] la confidential
+[ ] Children of Paradise
+[ ] La haine 
+[ ] les Valseuses 
+[ ] la grande bouffe
+[ ] The Umbrellas of Cherbourg
+[ ] Delicatessen
+[ ] A Prophet
+[ ] Enter the Void
+[ ] Jacob's Ladder
+[ ] The elephant man 
 
+[ ] Barton Fink
+[ ] Stranger Than Paradise
 
