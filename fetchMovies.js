@@ -35,28 +35,34 @@ movies = [
 ];
 
 
-movies.forEach(movieTitle => {
-    fetch('https://imdb-api.com/en/API/Search/k_z64c4abx/' + movieTitle)
-        .then((response) => response.json())
-        .then((data) => {
-            //warning if no data
-            if (data.results[0].title.toLowerCase() == movieTitle.toLowerCase()) {
-                let movieId = data.results[0].id;
-                fetch('https://imdb-api.com/en/API/Title/k_z64c4abx/' + movieId)
-                    .then((response) => response.json())
-                    .then((data) => {
-                        let movie = {};
-                        movie.title = movieTitle;
-                        movie.year = data.year;
-                        movie.director = data.directors
-                        movie.runningTime = data.runtimeStr;
-                        movie.synopsis=data.plot;
-                        console.log(movie);
-        })
-            } else {
-                console.log("title not found for: " + movieTitle);
-            }
-        }
-        );
-});
 
+function importing(){
+    movies.forEach(movieTitle => {
+        fetch('https://imdb-api.com/en/API/Search/k_z64c4abx/' + movieTitle)
+            .then((response) => response.json())
+            .then((data) => {
+                //warning if no data
+                if (data.results[0].title.toLowerCase() == movieTitle.toLowerCase()) {
+                    let movieId = data.results[0].id;
+                    fetch('https://imdb-api.com/en/API/Title/k_z64c4abx/' + movieId)
+                        .then((response) => response.json())
+                        .then((data) => {
+                            console.log(data);
+                            let movie = {};
+                            movie.title = movieTitle;
+                            movie.year = data.year;
+                            movie.director = data.directors
+                            movie.runningTime = data.runtimeStr;
+                            movie.thumbPath = "img/";
+                            movie.imdbScore = data.imdbRating;
+                            movie.synopsis = data.plot;
+                            console.log(movie);
+                        })
+                } else {
+                    console.log("title not found for: " + movieTitle);
+                }
+            }
+            );
+    });
+
+}

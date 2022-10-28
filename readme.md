@@ -44,7 +44,7 @@
 [x] das boot   
 [x] flew over a coucou's nest  
 [x] the name of the rose   
-[ ] there will be blood   
+[x] there will be blood   
 [ ] A clockwork orange   
 [ ] full metal jacket   
 [ ] casablanca   
