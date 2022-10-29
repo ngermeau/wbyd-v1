@@ -1,9 +1,10 @@
 # Todo
-[ ] change the title with proper font size   
+[x] change the title with proper font size   
 [ ] add all movies   
-[ ] include loading animation   
-[ ] apply hover effects with synopsis ?   
 [ ] verify for responsive mobile version 
+[ ] apply hover effects with synopsis ?   
+[ ] cleanup css properly
+[ ] include loading animation   
 
 # Idea to test
 [ ] testing with 1h30 | steven spielbergh | drama - adventure  description   
