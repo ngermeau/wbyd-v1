@@ -141,13 +141,9 @@ li {
 .movie__year {
     font-size: 0.7rem;
     /* background-color: #222; */
-    padding: 0.25rem 0.1rem 0; 
-    /* color: white; */
-    /* background-color: #EBDBC2; */
-    /* border-bottom: 0.3px solid #F4533F;
-    border-right: 0.3px solid #F4533F;
-    border-left: 0.3px solid #F4533F; */
-    color: #EBDBC2;
+    padding: 0.4rem 0.1rem 0; 
+    /* border: 1px solid #F4533F; */
+    /* color: #F4533F; */
     text-align: center;
 }
 
