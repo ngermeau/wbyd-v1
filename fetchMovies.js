@@ -34,11 +34,12 @@ movies = [
     //  "The Name of the rose"
 ];
 
-
+importing();
 
 function importing(){
+    let moviesResult = [];
     movies.forEach(movieTitle => {
-        fetch('https://imdb-api.com/en/API/Search/k_z64c4abx/' + movieTitle)
+         fetch('https://imdb-api.com/en/API/Search/k_z64c4abx/' + movieTitle)
             .then((response) => response.json())
             .then((data) => {
                 //warning if no data
@@ -53,10 +54,11 @@ function importing(){
                             movie.year = data.year;
                             movie.director = data.directors
                             movie.runningTime = data.runtimeStr;
-                            movie.thumbPath = "img/";
-                            movie.imdbScore = data.imdbRating;
+                            movie.thumbPath = "img/" + movie.title.replace(/ |'/g,'-');
+                            movie.tag = data.genreList.map((el) => { return el.value; }).join(' - ') + '.jpg';
+                            movie.imdbScore = data.imDbRating;
                             movie.synopsis = data.plot;
-                            console.log(movie);
+                            return movie;
                         })
                 } else {
                     console.log("title not found for: " + movieTitle);
@@ -64,5 +66,4 @@ function importing(){
             }
             );
     });
-
 }

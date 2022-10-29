@@ -1,9 +1,13 @@
 # Todo
 [x] change the title with proper font size   
 [ ] add all movies   
-[ ] verify for responsive mobile version 
-[ ] apply hover effects with synopsis ?   
+[ ] finish to_be_continued card 
+[ ] finish about card 
 [ ] cleanup css properly
+[ ] verify for responsive mobile version 
+[ ] release on the web 
+
+[ ] apply hover effects with synopsis 
 [ ] include loading animation   
 
 # Idea to test
