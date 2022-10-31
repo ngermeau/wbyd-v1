@@ -36,34 +36,39 @@ movies = [
 
 importing();
 
-function importing(){
+async function importing(){
     let moviesResult = [];
-    movies.forEach(movieTitle => {
-         fetch('https://imdb-api.com/en/API/Search/k_z64c4abx/' + movieTitle)
-            .then((response) => response.json())
-            .then((data) => {
-                //warning if no data
-                if (data.results[0].title.toLowerCase() == movieTitle.toLowerCase()) {
-                    let movieId = data.results[0].id;
-                    fetch('https://imdb-api.com/en/API/Title/k_z64c4abx/' + movieId)
-                        .then((response) => response.json())
-                        .then((data) => {
-                            console.log(data);
-                            let movie = {};
-                            movie.title = movieTitle;
-                            movie.year = data.year;
-                            movie.director = data.directors
-                            movie.runningTime = data.runtimeStr;
-                            movie.thumbPath = "img/" + movie.title.replace(/ |'/g,'-');
-                            movie.tag = data.genreList.map((el) => { return el.value; }).join(' - ') + '.jpg';
-                            movie.imdbScore = data.imDbRating;
-                            movie.synopsis = data.plot;
-                            return movie;
-                        })
-                } else {
-                    console.log("title not found for: " + movieTitle);
-                }
+    promise.all(movies.forEach(movieTitle => {
+        return await getMovieDetails(movieTitle);
+    }));
+    console.log(moviesResult);
+}
+
+async function getMovieDetails(movieTitle) {
+    fetch('https://imdb-api.com/en/API/Search/k_z64c4abx/' + movieTitle)
+        .then((response) => response.json())
+        .then((data) => {
+            //warning if no data
+            if (data.results[0].title.toLowerCase() == movieTitle.toLowerCase()) {
+                let movieId = data.results[0].id;
+                fetch('https://imdb-api.com/en/API/Title/k_z64c4abx/' + movieId)
+                    .then((response) => response.json())
+                    .then((data) => {
+                        console.log(data);
+                        let movie = {};
+                        movie.title = movieTitle;
+                        movie.year = data.year;
+                        movie.director = data.directors;
+                        movie.runningTime = data.runtimeStr;
+                        movie.thumbPath = "img/" + movie.title.replace(/ |'/g, '-');
+                        movie.tag = data.genreList.map((el) => { return el.value; }).join(' - ') + '.jpg';
+                        movie.imdbScore = data.imDbRating;
+                        movie.synopsis = data.plot;
+                        return movie;
+                    });
+            } else {
+                console.log("title not found for: " + movieTitle);
             }
-            );
-    });
+        }
+        );
 }

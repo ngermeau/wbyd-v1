@@ -34,6 +34,7 @@ li {
 }
 
 .container { 
+    padding-top: 10px;
     width: 98%;
     margin: 0 auto;
     display: grid;
@@ -77,7 +78,7 @@ li {
 .letter {
     font-size: 6.7rem;
     font-weight:700;
-    writing-mode: sideways-rl;
+    writing-mode: vertical-rl;
     text-transform: uppercase;
     grid-column: 1 / 2;
     line-height: 0.8;
@@ -138,3 +139,23 @@ li {
 }
 
 
+@media (max-width: 448px) {
+
+    .container {
+        padding-top: 15px;
+        width: 96%;
+        margin: 0 auto;
+        row-gap: 2rem;
+    }
+
+    .about {
+        width: 100%;       
+        padding: 0;
+        text-transform: uppercase;
+        background-color: #F4533F;
+        color: #151515;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+}
