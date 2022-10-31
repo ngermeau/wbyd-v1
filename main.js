@@ -10,7 +10,7 @@ function renderMovies(movies) {
                 movies = data.movies;
                 movies.forEach(movie => {
                     var rendered = Mustache.render(template, movie);
-                    $(rendered).insertAfter(".begin");
+                    $(rendered).insertAfter("#target");
                 });
             });
         });

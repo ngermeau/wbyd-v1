@@ -88,6 +88,7 @@
 [ ] Akira 
 [ ] Lost highway 
 [ ] The fly
+[ ] interstellar 
  
 ## Candidates...
 [ ] 12 Angry Men
@@ -105,6 +106,7 @@
 [ ] Enter the Void
 [ ] Jacob's Ladder
 [ ] The elephant man 
+[ ] incendies 
 
 [ ] Barton Fink
 [ ] Stranger Than Paradise
