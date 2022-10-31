@@ -1,13 +1,13 @@
 # Todo
 [x] change the title with proper font size   
+[x] finish to_be_continued card 
+[ ] verify for responsive mobile version 
 [ ] add all movies   
-[ ] finish to_be_continued card 
 [ ] finish about card 
 [ ] cleanup css properly
-[ ] verify for responsive mobile version 
 [ ] release on the web 
 
-[ ] apply hover effects with synopsis 
+[ ] apply hover effects with synopsis  (https://freefrontend.com/css-movie-cards/)
 [ ] include loading animation   
 
 # Idea to test
@@ -108,4 +108,5 @@
 
 [ ] Barton Fink
 [ ] Stranger Than Paradise
+
 
