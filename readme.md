@@ -1,10 +1,10 @@
 # Todo
 [x] change the title with proper font size   
 [x] finish to_be_continued card 
-[ ] swipe card for responsive mobile version and test
+[x] responsive mobile version small cards (check github pinned)
+[ ] finish about card 
 [ ] add all movies   
 [ ] release on the web 
-[ ] finish about card 
 [ ] cleanup css properly
 
 [ ] apply hover effects with synopsis  (https://freefrontend.com/css-movie-cards/)
