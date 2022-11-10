@@ -43,6 +43,26 @@ li {
 }
 
 .about {
+  position: relative;
+}
+
+.about_hero_link{
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
+    border: 2px solid #EBDBC2;
+    line-height: 1;
+    text-align: center;
+    color: #F4533F
+}
+
+.about_info_link {
+    position: absolute;
+    bottom: 10;
+    right: 0;
     width: 3rem;
     height: 3rem;
     padding: 0.3rem;
@@ -55,17 +75,25 @@ li {
 }
 
 .hero{
+    position: relative;
     color: #F4533F;
     display: grid;
-    grid-template-columns: max-content max-content  1fr;
+    grid-template-columns: max-content 1fr;
     font-weight: 500;
     align-items: center;
+}
+
+.hide {
+  display: none;
 }
 
 .small {
     font-size: 0.8rem;
 }
 
+.bold { 
+  color: #F4533F;
+}
 
 .letter {
     font-size: 6.7rem;
@@ -85,6 +113,20 @@ li {
 
 .end {
     border-bottom: 4px solid #222;
+}
+
+.movie {
+  position: relative;
+}
+
+.movie_caption {
+  bottom: -200px;
+  position: absolute;
+  z-index: 2000;
+}
+
+.movie_img:hover ~ .movie_caption {
+  transform: translateY(-200px);
 }
 
 .movie__header {
@@ -140,9 +182,8 @@ li {
 
   .container {
       padding-top: 10px;
-      grid-auto-rows: 230px;
+      grid-auto-rows: 250px;
       gap: 0rem;
-    /* padding: 0 10px 10px 10px; */
   }
 
   .hero {

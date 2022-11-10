@@ -1,5 +1,6 @@
 $(document).ready(() => {
     renderMovies();
+    addAboutListeners();
 });
 
 function renderMovies(movies) {
@@ -15,5 +16,18 @@ function renderMovies(movies) {
             });
         });
 }
+
+function addAboutListeners(){
+   document.querySelector(".about_info_link").addEventListener('click', () => {
+        document.querySelector(".hero").classList.add("hide");
+        document.querySelector(".about").classList.remove("hide");
+   });
+
+   document.querySelector(".about_hero_link").addEventListener('click', () => {
+        document.querySelector(".about").classList.add("hide");
+        document.querySelector(".hero").classList.remove("hide");
+   });
+}
+
 
 

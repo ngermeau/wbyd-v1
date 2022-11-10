@@ -2,13 +2,14 @@
 [x] change the title with proper font size   
 [x] finish to_be_continued card 
 [x] responsive mobile version small cards (check github pinned)
-[ ] finish about card 
+[x] finish about card 
+[ ] add hover with synopsis and watch trailer 
+[ ] cleanup css properly (mobile first)
+[ ] include loading animation   
 [ ] add all movies   
 [ ] release on the web 
-[ ] cleanup css properly
 
 [ ] apply hover effects with synopsis  (https://freefrontend.com/css-movie-cards/)
-[ ] include loading animation   
 
 # Idea to test
 [ ] testing with 1h30 | steven spielbergh | drama - adventure  description   
