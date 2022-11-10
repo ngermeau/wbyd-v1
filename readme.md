@@ -4,8 +4,8 @@
 [x] responsive mobile version small cards (check github pinned)
 [x] finish about card 
 [ ] add hover with synopsis and watch trailer 
-[ ] cleanup css properly (mobile first)
 [ ] include loading animation   
+[ ] cleanup css properly (mobile first) and move to sass with variables
 [ ] add all movies   
 [ ] release on the web 
 

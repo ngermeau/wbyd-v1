@@ -20,7 +20,7 @@ img {
     clip-path: polygon(8% 0, 100% 0, 100% 0, 100% 100%, 0 100%, 0 9%);
 }
 
-h1,h2,h3,p,ul {
+h1,h2,h3,p,ul,figure {
     padding: 0;
     margin: 0;
 }
@@ -119,14 +119,36 @@ li {
   position: relative;
 }
 
-.movie_caption {
-  bottom: -200px;
+figcaption {
+  bottom: -100px;
   position: absolute;
-  z-index: 2000;
+  z-index: 1000;
+  padding-left: 10px;
+  transition: all 1s;
 }
 
-.movie_img:hover ~ .movie_caption {
-  transform: translateY(-200px);
+figure {
+  position: relative;
+  overflow: hidden;
+}
+
+figure:hover figcaption, figure:active figcaption{
+  transform: translateY(-130px);
+}
+
+figure:hover::after {
+  transform: translateY(-100px);
+}
+
+figure::after {
+  display: block;
+  position: absolute;
+  bottom: -100px;
+  content: '';
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .6) 40%, rgba(255, 255 ,255 , 0) 100%);
+  transition: all 1s;
 }
 
 .movie__header {
