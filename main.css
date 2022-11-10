@@ -70,8 +70,6 @@ li {
     line-height: 1;
     text-align: center;
     color: #EBDBC2;
-    align-self: center;
-    justify-self: end;
 }
 
 .hero{
@@ -81,6 +79,21 @@ li {
     grid-template-columns: max-content 1fr;
     font-weight: 500;
     align-items: center;
+}
+
+
+.movie__trailer {
+  display: inline-block;
+  color: #EBDBC2;
+  border: 1px solid #EBDBC2;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.movie__synopsis {
+  padding: 0 20px;
 }
 
 .hide {
@@ -120,11 +133,16 @@ li {
 }
 
 figcaption {
-  bottom: -100px;
+  bottom: -190px;
   position: absolute;
   z-index: 1000;
-  padding-left: 10px;
-  transition: all 1s;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.movie__trailer{
+  margin-top: 10px;
+  padding: 3px 10px;
 }
 
 figure {
@@ -133,23 +151,24 @@ figure {
 }
 
 figure:hover figcaption, figure:active figcaption{
-  transform: translateY(-130px);
+  transform: translateY(-220px);
 }
 
 figure:hover::after {
-  transform: translateY(-100px);
+  transform: translateY(-190px);
 }
 
 figure::after {
   display: block;
   position: absolute;
-  bottom: -100px;
+  bottom: -190px;
   content: '';
   width: 100%;
   height: 80%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, .6) 40%, rgba(255, 255 ,255 , 0) 100%);
-  transition: all 1s;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .8) 40%, rgba(0, 0, 0, .6) 70%,rgba(255, 255 ,255 , 0) 100%);
+  transition: all 0.5s;
 }
+
 
 .movie__header {
     display: flex;
@@ -203,9 +222,12 @@ figure::after {
 
 
   .container {
+      height: 100vh;
       padding-top: 10px;
-      grid-auto-rows: 250px;
+      grid-auto-rows: 220px;
       gap: 0rem;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory; 
   }
 
   .hero {
@@ -214,6 +236,7 @@ figure::after {
 
   .movie {
     position: relative;
+    scroll-snap-align: center;
   }
  
   .movie__informations {
