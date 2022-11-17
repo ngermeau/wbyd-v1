@@ -1,33 +1,52 @@
 $(document).ready(() => {
-    renderMovies();
-    addAboutListeners();
+  renderMovies();
+  addAboutListeners();
+  addFocusOnSnap();
 });
 
 function renderMovies(movies) {
-    fetch('movie.mustache')
-        .then((response) => response.text())
-        .then((template) => {
-            $.getJSON('movies.json', function (data) {
-                movies = data.movies;
-                movies.forEach(movie => {
-                    var rendered = Mustache.render(template, movie);
-                    $(rendered).insertAfter("#target");
-                });
-            });
+  fetch("movie.mustache")
+    .then((response) => response.text())
+    .then((template) => {
+      $.getJSON("movies.json", function (data) {
+        movies = data.movies;
+        movies.forEach((movie) => {
+          var rendered = Mustache.render(template, movie);
+          $(rendered).insertAfter("#target");
         });
+      });
+    });
 }
 
-function addAboutListeners(){
-   document.querySelector(".about_info_link").addEventListener('click', () => {
-        document.querySelector(".hero").classList.add("hide");
-        document.querySelector(".about").classList.remove("hide");
-   });
+function addAboutListeners() {
+  document.querySelector(".about_info_link").addEventListener("click", () => {
+    document.querySelector(".hero").classList.add("hide");
+    document.querySelector(".about").classList.remove("hide");
+  });
 
-   document.querySelector(".about_hero_link").addEventListener('click', () => {
-        document.querySelector(".about").classList.add("hide");
-        document.querySelector(".hero").classList.remove("hide");
-   });
+  document.querySelector(".about_hero_link").addEventListener("click", () => {
+    document.querySelector(".about").classList.add("hide");
+    document.querySelector(".hero").classList.remove("hide");
+  });
 }
 
-
-
+function addFocusOnSnap() {
+  let container = document.querySelector(".container");
+  let timer = null;
+  container.addEventListener("scroll", function () {
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      let boarder = 300;
+      let movies = document.querySelectorAll(".movie");
+      movies.forEach((movie) => {
+        let distanceToTop = movie.getBoundingClientRect().top;
+        // console.log(movie.id + " is candidate " + distanceToTop);
+        if (distanceToTop >= boarder && distanceToTop < boarder * 2) {
+          console.log(
+            movie.id + " is active now with distance " + distanceToTop
+          );
+        }
+      });
+    }, 100);
+  });
+}
