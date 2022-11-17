@@ -36,15 +36,15 @@ function addFocusOnSnap() {
   container.addEventListener("scroll", function () {
     clearTimeout(timer);
     timer = setTimeout(function () {
-      let boarder = 300;
+      let boarder = (window.innerHeight / 100) * 30;
       let movies = document.querySelectorAll(".movie");
       movies.forEach((movie) => {
         let distanceToTop = movie.getBoundingClientRect().top;
         // console.log(movie.id + " is candidate " + distanceToTop);
         if (distanceToTop >= boarder && distanceToTop < boarder * 2) {
-          console.log(
-            movie.id + " is active now with distance " + distanceToTop
-          );
+          console.log(movie.id + " is active now with distance " + distanceToTop);
+          let figure = movie.getElementsByTagName("figure")[0];
+          movie.classList.add("active");
         }
       });
     }, 100);
