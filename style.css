@@ -9,8 +9,45 @@
   --font-text: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1;
+}
+
+.bold {
+  font-weight: 500;
+}
+
 body {
-  font-family: var(--font-title);
+  font-family: var(--font-text);
   background-color: var(--color-background);
   color: var(--color-text);
 }
@@ -23,16 +60,20 @@ main {
   scroll-snap-type: y mandatory;
 }
 
-.header {
-  position: relative;
-}
-
 .container {
   width: 95%;
   margin: 0 auto;
+  left: 0; /* dirty hack */
+  right: 0; /* for centering absolute elements */
 }
 
-.header > .hero {
+.card {
+  position: relative;
+  scroll-snap-align: center;
+}
+
+.header > .hero,
+.footer {
   display: grid;
   grid-template-columns: max-content 1fr;
   align-items: center;
@@ -64,211 +105,83 @@ main {
   display: none;
 }
 
-.header .main_letter {
+.header .main_letter,
+.footer .main_letter {
   font-size: 3rem;
   font-weight: 700;
   writing-mode: vertical-rl;
   text-transform: uppercase;
-  grid-column: 1 / 2;
   line-height: 0.8;
 }
 
-.header .sub_letter {
+.header .sub_letter,
+.footer .sub_letter {
   font-size: 2rem;
   font-weight: 600;
-  grid-column: 2 / 3;
 }
 
-.card {
-  border: 1px solid red;
-  scroll-snap-align: center;
-}
-
-
-.movie__trailer {
-  display: inline-block;
-  color: #ebdbc2;
-  border: 1px solid #ebdbc2;
-  text-transform: capitalize;
-  font-size: 0.8rem;
-  text-decoration: none;
-  border-radius: 3px;
-}
-
-.movie__synopsis {
-  padding: 0 20px;
-}
-
-.small {
-  font-size: 0.8rem;
-}
-
-.bold {
-  color: #f4533f;
-}
-
-.end {
-  border-bottom: 4px solid #222;
-}
-
-.movie {
-  position: relative;
-}
-
-figcaption {
-  bottom: -190px;
-  position: absolute;
-  z-index: 1000;
-  transition: all 0.5s;
-  text-align: center;
-}
-
-.movie__trailer {
-  margin-top: 10px;
-  padding: 3px 10px;
-}
-
-figure {
+.movie > .movie__fig {
   position: relative;
   overflow: hidden;
 }
 
-figure:hover figcaption,
-figure:hover figcaption {
-  transform: translateY(-220px);
+.movie .movie__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: pixelated;
 }
 
-figure:hover::after {
-  transform: translateY(-190px);
-}
-
-figure::after {
-  display: block;
+.movie .movie__informations {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  bottom: -190px;
+  bottom: 3%;
+  z-index: 9999;
+}
+
+.movie .movie__details {
+  font-family: var(--font-text);
+}
+
+.movie__title {
+  text-transform: uppercase;
+  color: var(--color-title);
+}
+
+.movie__title > span {
+  color: var(--color-text);
+}
+
+.movie::after {
+  position: absolute;
+  display: block;
+  bottom: 0;
   content: "";
   width: 100%;
   height: 80%;
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.8) 40%,
-    rgba(0, 0, 0, 0.6) 70%,
+    rgba(0, 0, 0, 0.6) 50%,
     rgba(255, 255, 255, 0) 100%
   );
-  transition: all 0.5s;
-}
-
-.movie__header {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  padding-top: 0.1rem;
-}
-
-.movie__title {
-  line-height: 1.3rem;
-  text-transform: uppercase;
-  color: #f4533f;
-}
-
-.movie__year {
-  font-size: 0.7rem;
-  font-weight: 500;
-}
-
-.movie__details {
-  font-family: "Montserrat", sans-serif;
-  padding-top: 0.2rem;
-  font-size: 0.7rem;
-  font-weight: 400;
-}
-
-.movie__running,
-.movie__director,
-.movie__tag {
-  font-weight: 500;
-}
-
-.end {
-  display: grid;
-  color: #f4533f;
-  align-self: end;
 }
 
 @media (min-width: 500px) {
   main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr));
-    gap: 0.8rem;
-    border: 1px solid red;
+    grid-template-columns: repeat(auto-fit, minmax(14.5rem, 1fr));
+    gap: 0.4rem;
   }
-
-  li {
-    line-height: 0.7rem;
-  }
-
-  img {
-    aspect-ratio: 1 /1;
-    object-fit: cover;
-    clip-path: polygon(8% 0, 100% 0, 100% 0, 100% 100%, 0 100%, 0 9%);
-  }
-  body {
-    height: 100%;
-  }
-
-  .letter {
-    font-size: 5rem;
-  }
-
-  img {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    aspect-ratio: unset;
-    clip-path: unset;
-  }
-
-  .hero {
-    padding: 0px 10px 10px 10px;
-  }
-
-  .movie {
-    position: relative;
-    scroll-snap-align: center;
-  }
-
-  .movie__informations {
-    width: 100%;
-  }
-
-  .movie__header {
-    width: 100%;
+  
+  .movie .movie__informations {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
 
-  .movie__year {
-    font-size: 0.8rem;
-  }
-
-  .movie::after {
-    position: absolute;
-    display: block;
-    bottom: 0;
-    content: "";
-    width: 100%;
-    height: 80%;
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.6) 50%,
-      rgba(255, 255, 255, 0) 100%
-    );
-  }
-
-  .movie__informations {
-    padding: 10px;
-    position: absolute;
-    bottom: 20;
-    z-index: 1000;
+  h4 {
+    font-size: 1.25rem;
   }
 
   figure:hover figcaption,
@@ -278,5 +191,60 @@ figure::after {
 
   .active > figure > figcaption {
     transform: translateY(-320px);
+  }
+
+  .movie__trailer {
+    display: inline-block;
+    color: #ebdbc2;
+    border: 1px solid #ebdbc2;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+  .movie__synopsis {
+    padding: 0 20px;
+  }
+
+  figcaption {
+    bottom: -190px;
+    position: absolute;
+    z-index: 1000;
+    transition: all 0.5s;
+    text-align: center;
+  }
+
+  .movie__trailer {
+    margin-top: 10px;
+    padding: 3px 10px;
+  }
+
+  figure:hover figcaption,
+  figure:hover figcaption {
+    transform: translateY(-220px);
+  }
+
+  figure:hover::after {
+    transform: translateY(-190px);
+  }
+
+  figure::after {
+    display: block;
+    position: absolute;
+    bottom: -190px;
+    content: "";
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 40%,
+      rgba(0, 0, 0, 0.6) 70%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transition: all 0.5s;
+  }
+  figcaption {
+    display: none;
   }
 }
