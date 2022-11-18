@@ -203,7 +203,7 @@
         {
             "title": "Monty Python and the Holy Grail",
             "year": 1975,
-            "director": "Terry Gilliam - Terry Jones",
+            "director": "Terry Gilliam",
             "runningTime": "1h31",
             "thumbPath": "img/monthy-python-and-the-holy-grail.jpg",
             "tag": "Adventure - Comedy - Fantasy",
@@ -255,7 +255,7 @@
             "year": 1990,
             "director": "Martin Scorsese",
             "runningTime": "2h25",
-            "thumbPath": "img/goodfellas.jpg",
+            "thumbPath": "img/goodfellas.webp",
             "tag": "Biography - Crime - Drama",
             "imdbScore": "8.7",
             "synopsis": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
@@ -263,7 +263,7 @@
         {
             "title": "The Matrix",
             "year": 1999,
-            "director": "Lana and Lilly Wachowski",
+            "director": "Wachowski sisters",
             "runningTime": "2h16",
             "thumbPath": "img/the-matrix.jpg",
             "tag": "Action - SciFi",
