@@ -1,0 +1,35 @@
+/* easier for width calculatin */
+* {
+    box-sizing: border-box;
+}
+
+/* reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* reset ul ol styling */
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+    height: 100vh;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
