@@ -42,6 +42,10 @@ h5 {
   line-height: 1;
 }
 
+a {
+  color: var(--color-text);
+}
+
 .bold {
   font-weight: 500;
 }
@@ -56,7 +60,7 @@ body {
 main {
   height: 100vh;
   display: grid;
-  grid-auto-rows: 48%;
+  grid-auto-rows: 80%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
@@ -128,9 +132,12 @@ main {
   font-weight: 600;
 }
 
+
+
 .movie > .movie__fig {
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .movie .movie__img {
@@ -148,6 +155,13 @@ main {
   gap: 0.3rem;
   bottom: 5%;
   z-index: 9999;
+  width: 100%;
+}
+
+.movie__details_panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .movie .movie__details {
@@ -165,13 +179,18 @@ main {
   color: var(--color-text);
 }
 
+.movie__more-info {
+  font-size: 1.2rem;
+  writing-mode: vertical-lr;
+}
+
 .movie::after {
   position: absolute;
   display: block;
   bottom: 0;
   content: "";
   width: 100%;
-  height: 80%;
+  height: 45%;
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.6) 50%,
@@ -179,8 +198,12 @@ main {
   );
 }
 
-figcaption {
-  display: none;
+.movie.expanded::after {
+  transform: translateY(-200px);
+}
+
+.movie.expanded figcaption{
+  transform: translateY(-500px);
 }
 
 /* Phone-landscape */
@@ -192,6 +215,17 @@ figcaption {
 
   h4 {
     font-size: 1.25rem;
+  }
+
+  .header .link {
+    bottom: 2px;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
   }
 }
 

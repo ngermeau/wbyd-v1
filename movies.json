@@ -95,7 +95,7 @@
             "year": 1992,
             "director": "Quentin Tarantino",
             "runningTime": "1h39",
-            "thumbPath": "img/reservoir-dogs.jpg",
+            "thumbPath": "img/reservoir-dogs.webp",
             "tag": "Crime - Thriller",
             "imdbScore": "8.3",
             "synopsis": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant."
@@ -295,7 +295,7 @@
             "year": 1999,
             "director": "David Fincher",
             "runningTime": "2h19",
-            "thumbPath": "img/fight-club.jpg",
+            "thumbPath": "img/fight-club.webp",
             "tag": "Drama",
             "imdbScore": "8.1",
             "synopsis": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."

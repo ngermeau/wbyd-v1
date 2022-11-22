@@ -1,18 +1,19 @@
 <div id="{{title}}" class="card movie">
-<figure class="movie__fig">
+
+  <figure class="movie__fig">
     <img class="movie__img" src="{{thumbPath}}" alt="movie picture"/>
-        <figcaption>
-            <p class="movie__synopsis small">
-                {{synopsis}}
-            </p>
-            <a href="#" class="movie__trailer"> watch trailer </a>
-        </figcaption>
-    </figure>
-    <div class="movie__informations">
-        <div class="movie__header">
-            <h4 class="movie__title">{{title}}
-            <span class="bold text_small">{{year}}</span></h4>
-        </div>
+    <figcaption>
+      <p class="movie__synopsis small"> {{synopsis}} </p>
+      <a href="#" class="movie__trailer"> watch trailer </a>
+    </figcaption>
+  </figure>
+
+  <div class="movie__informations">
+      <div class="movie__header">
+          <h4 class="movie__title">{{title}}
+          <span class="bold text_small">{{year}}</span></h4>
+      </div>
+      <div class="movie__details_panel">
         <div class="movie__details text_small">
             <ul>
                 <li>Running Time <span class="bold"> {{runningTime}} <span></span> </li>
@@ -20,5 +21,8 @@
                 <li><span class="bold">{{tag}}</span></li>
             </ul>
         </div>
+        <div class="movie__more-info"> <a href="#">More</a> </div>
     </div>
-    </div>
+  </div>
+
+</div>
