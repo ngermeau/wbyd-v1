@@ -87,6 +87,7 @@ main {
   display: grid;
   grid-template-columns: max-content 1fr;
   align-items: center;
+  padding-left: 10px;
 }
 
 .header .link {
@@ -118,7 +119,7 @@ main {
 
 .main_letter {
   color: var(--color-title);
-  font-size: 5rem;
+  font-size: 9rem;
   font-family: var(--font-title);
   font-weight: 700;
   writing-mode: vertical-rl;
@@ -129,7 +130,7 @@ main {
 .sub_letter {
   color: var(--color-title);
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 .movie {
@@ -253,6 +254,14 @@ figcaption {
     grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));
     grid-auto-rows: 48%;
     gap: 0.4rem;
+  }
+
+  .main_letter {
+    font-size: 8rem;
+  }
+
+  .sub_letter {
+    font-size: 4rem;
   }
 
   h4 {
