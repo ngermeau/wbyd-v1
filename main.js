@@ -1,14 +1,14 @@
-$(document).ready(() => {
-  renderMovies();
+$(document).ready(async () => {
+  await renderMovies();
   addAboutListeners();
-  addFocusOnSnap();
+  addMoreInfoListeners();
 });
 
-function renderMovies(movies) {
-  fetch("movie.mustache")
+async function renderMovies(movies) {
+  await fetch("movie.mustache")
     .then((response) => response.text())
-    .then((template) => {
-      $.getJSON("movies.json", function (data) {
+    .then(async (template) => {
+      await $.getJSON("movies.json", function (data) {
         movies = data.movies;
         movies.forEach((movie) => {
           var rendered = Mustache.render(template, movie);
@@ -30,23 +30,16 @@ function addAboutListeners() {
   });
 }
 
-function addFocusOnSnap() {
-  let container = document.querySelector(".container");
-  let timer = null;
-  container.addEventListener("scroll", function () {
-    clearTimeout(timer);
-    timer = setTimeout(function () {
-      let boarder = (window.innerHeight / 100) * 30;
-      let movies = document.querySelectorAll(".movie");
-      movies.forEach((movie) => {
-        let distanceToTop = movie.getBoundingClientRect().top;
-        // console.log(movie.id + " is candidate " + distanceToTop);
-        if (distanceToTop >= boarder && distanceToTop < boarder * 2) {
-          console.log(movie.id + " is active now with distance " + distanceToTop);
-          let figure = movie.getElementsByTagName("figure")[0];
-          movie.classList.add("active");
-        }
-      });
-    }, 100);
+function addMoreInfoListeners() {
+  let moreElements = document.querySelectorAll(".movie__more-info");
+  moreElements.forEach((moreElem) => {
+    moreElem.addEventListener("click", (e) => {
+      let movieClassList = e.target.closest(".movie").classList;
+      if (movieClassList.contains("expanded")) {
+        movieClassList.remove("expanded");
+        return;
+      }
+      movieClassList.add("expanded");
+    });
   });
 }
