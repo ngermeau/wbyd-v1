@@ -18,8 +18,10 @@ small,
   font-size: 0.8rem;
 }
 
-.bold {
+.im{
+  font-size: 1rem;
   font-weight: 500;
+  color: var(--color-title);
 }
 
 body {
@@ -61,6 +63,10 @@ main {
   padding-left: 10px;
 }
 
+.about { 
+  padding: 10px;  
+}
+
 .footer {
   align-items: end;
 }
@@ -90,6 +96,7 @@ main {
 .about.hide_card {
   display: none;
 }
+
 
 .main_letter {
   color: var(--color-title);
