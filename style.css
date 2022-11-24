@@ -119,7 +119,7 @@ main {
 
 .main_letter {
   color: var(--color-title);
-  font-size: 9rem;
+  font-size: 4rem;
   font-family: var(--font-title);
   font-weight: 700;
   writing-mode: vertical-rl;
@@ -133,6 +133,7 @@ main {
   font-size: 5rem;
   font-weight: 600;
 }
+
 .movie {
   overflow: hidden;
 }
