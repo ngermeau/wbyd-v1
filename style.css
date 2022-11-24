@@ -9,41 +9,13 @@
   --font-text: "poppins", sans-serif;
 }
 
-h1 {
-  font-size: 3.052rem;
-}
-
-h2 {
-  font-size: 2.441rem;
-}
-
-h3 {
-  font-size: 1.953rem;
-}
-
-h4 {
-  font-size: 1.563rem;
-}
-
-h5 {
-  font-size: 1.25rem;
+a {
+  color: var(--color-text);
 }
 
 small,
 .text_small {
   font-size: 0.8rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  line-height: 1;
-}
-
-a {
-  color: var(--color-text);
 }
 
 .bold {
@@ -104,14 +76,14 @@ main {
   text-align: center;
 }
 
-.header .about_link {
+.about_link {
   border: 2px solid var(--color-text);
   color: var(--color-title);
 }
 
-.header .hero_link {
-  border: 2px solid #f4533f;
-  color: #ebdbc2;
+.hero_link {
+  border: 2px solid var(--color-title);
+  color: var(--color-text);
 }
 
 .hero.hide_card,
@@ -139,18 +111,19 @@ main {
 .movie {
   overflow: hidden;
 }
-.movie > .movie__fig {
+
+.movie__fig {
   position: relative;
   height: 100%;
 }
 
-.movie .movie__img {
+.movie__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.movie .movie__informations {
+.movie__informations {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -168,14 +141,15 @@ main {
   align-items: flex-end;
 }
 
-.movie .movie__details {
-  line-height: 1rem;
+.movie__details {
+  line-height: .9rem;
   font-family: var(--font-text);
 }
 
 .movie__title {
   font-family: var(--font-title);
   text-transform: uppercase;
+  line-height: 1;
   color: var(--color-title);
 }
 
@@ -209,7 +183,7 @@ main {
   animation: fadeIn 0.9s;
 }
 
-figcaption {
+.movie__caption {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -218,7 +192,7 @@ figcaption {
   z-index: 1000;
 }
 
-.movie.expanded figcaption {
+.movie.expanded .movie__caption {
   top: 30%;
   transform: translateY(-50%);
   animation: fadeIn 0.9s;
@@ -267,13 +241,8 @@ figcaption {
     font-size: 4rem;
   }
 
-  h4 {
+  .movie__title {
     font-size: 1.25rem;
-  }
-
-  .header .about_link {
-    border: 2px solid var(--color-text);
-    color: var(--color-title);
   }
 
   .header .link {
@@ -291,7 +260,7 @@ figcaption {
     animation: fadeIn 0.9s;
   }
 
-  .movie:hover figcaption {
+  .movie:hover .movie__caption{
     top: 30%;
     transform: translateY(-50%);
     animation: fadeIn 0.9s;
