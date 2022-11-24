@@ -67,6 +67,11 @@ main {
   padding: 10px;  
 }
 
+.heart {
+  width: 1rem;
+  display: inline;
+}
+
 .footer {
   align-items: end;
 }
