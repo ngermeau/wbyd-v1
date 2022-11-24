@@ -60,7 +60,7 @@ body {
 main {
   height: 100vh;
   display: grid;
-  grid-auto-rows: 80%;
+  grid-auto-rows: 60%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
@@ -79,15 +79,18 @@ main {
 .footer {
   display: flex;
   align-items: center;
-  padding-left: 2%;
 }
 
-.header > .hero,
+.hero,
 .footer {
   display: grid;
   grid-template-columns: max-content 1fr;
   align-items: center;
   padding-left: 10px;
+}
+
+.footer {
+  align-items: end;
 }
 
 .header .link {
@@ -96,9 +99,8 @@ main {
   right: 2%;
   width: 3.75rem;
   height: 3.75rem;
-  padding: 0.6rem;
+  padding-top: 0.8rem;
   font-size: 1.2rem;
-  line-height: 1;
   text-align: center;
 }
 
@@ -119,7 +121,7 @@ main {
 
 .main_letter {
   color: var(--color-title);
-  font-size: 4rem;
+  font-size: 9rem;
   font-family: var(--font-title);
   font-weight: 700;
   writing-mode: vertical-rl;
@@ -130,7 +132,7 @@ main {
 .sub_letter {
   color: var(--color-title);
   font-family: var(--font-title);
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -269,15 +271,17 @@ figcaption {
     font-size: 1.25rem;
   }
 
+  .header .about_link {
+    border: 2px solid var(--color-text);
+    color: var(--color-title);
+  }
+
   .header .link {
     bottom: 2px;
     right: 0;
     width: 3rem;
     height: 3rem;
-    padding: 0.2rem;
-    font-size: 1rem;
-    line-height: 1;
-    text-align: center;
+    font-size: 0.9rem;
   }
 
   .movie:hover::after {
