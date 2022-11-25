@@ -71,16 +71,6 @@
             "synopsis": "Henry Spencer tries to survive his industrial environment, his angry girlfriend, and the unbearable screams of his newly born mutant child."
         },
         {
-            "title": "Exotica",
-            "year": 1994,
-            "director": "Atom Egoyan",
-            "runningTime": "1h43",
-            "thumbPath": "img/exotica.jpg",
-            "tag": "Drama",
-            "imdbScore": "7.0",
-            "synopsis": "A man plagued by neuroses frequents the club Exotica in an attempt to find solace, but even there his past is never far away."
-        },
-        {
             "title": "Requiem for a dream",
             "year": 2000,
             "director": "Darren Aronofsky",
@@ -339,6 +329,17 @@
             "tag": "Drama",
             "imdbScore": "8.2",
             "synopsis": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business."
+        },
+        {
+            "title": "A Clockwork Orange",
+            "year": 1971,
+            "director": "Stanley Kubrick",
+            "runningTime": "2h16",
+            "thumbPath": "img/a-clockwork-orange.jpg",
+            "trailerLink": "https://www.youtube.com/watch?v=T54uZPI4Z8A",
+            "tag": "Drama",
+            "imdbScore": "8.2",
+            "synopsis": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned."
         }
     ]
 }

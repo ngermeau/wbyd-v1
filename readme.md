@@ -1,97 +1,37 @@
 # Todo
+[ ] add all movies with trailers 
+[ ] going back to correct movie when going back in mobile 
+[ ] More link in mobile version is not vissible at all (round border ?)
+[ ] make all images pop !   
+[ ] compress all img to webp standard  
+[ ] seo and google analytics   
+[ ] release on the web   
+[ ] check loading time   
+[ ] update readme.md with screenshot
+[ ] use scss
+[ ] Responsive version in landscape mode is not ok
+[ ] can have only one absolut info box instead of two.
+[ ] load image as we scroll 
+[ ] get json from node server 
+
+# Nice to have 
+[ ] include loading animation for movies   
+[ ] Create a better logo
+[ ] css 3d effects for cards 
+
+# Done 
+[x] cleanup css properly (mobile first) and move to sass with variables
 [x] change the title with proper font size   
 [x] finish to_be_continued card 
-[x] responsive mobile version small cards (check github pinned)
+[x] responsive mobile version small cards 
 [x] finish about card 
-[ ] add hover with synopsis and watch trailer 
-[ ] include loading animation   
-[ ] cleanup css properly (mobile first) and move to sass with variables
-[ ] add all movies   
-[ ] release on the web 
+[x] add hover with synopsis and watch trailer 
+[x] apply hover effects with synopsis  (https://freefrontend.com/css-movie-cards/)
 
-[ ] apply hover effects with synopsis  (https://freefrontend.com/css-movie-cards/)
 
-# Idea to test
-[ ] testing with 1h30 | steven spielbergh | drama - adventure  description   
-[ ] other background and font color  
 
-# Movies list 
-
-[x] taxi driver   
-[x] pulp fiction  
-[x] alien 1  
-[x] apocalypse now   
-[x] blade runner   
-[x] brazil  
-[x] eraserhead  
-[x] exotica   
-[x] requiem for a dream   
-[x] Reservoir dogs  
-[x] the shining   
-[x] the texas chainsaw massacre  
-[x] bagdad cafe   
-[x] the good, the bad and the ugly   
-[x] the big lebowski   
-[x] fear and loathing in las vegas   
-[x] deadman   
-[x] blue velvet  
-[x] the thing   
-[x] the rocky horror picture show   
-[x] the quest of holy grail   
-[x] scarface   
-[x] 2001 a space oddyssey   
-[x] the godfather   
-[x] trainspotting   
-[x] goodfellas  
-[x] the matrix   
-[x] the silence of the lambs   
-[x] barry lyndon   
-[x] fight club   
-[x] das boot   
-[x] flew over a coucou's nest  
-[x] the name of the rose   
-[x] there will be blood   
-[ ] A clockwork orange   
-[ ] full metal jacket   
-[ ] casablanca   
-[ ] dr strangelove   
-[ ] psycho   
-[ ] vertigo   
-[ ] modern times   
-[ ] memento   
-[ ] fargo
-[ ] raging bull   
-[ ] chinatown   
-[ ] city of the god   
-[ ] the deer hunter
-[ ] platoon
-[ ] the mission
-[ ] No Country for Old Men
-[ ] mad max
-[ ] parasite 
-[ ] birdman
-[ ] there will be blood
-[ ] Schindler's List
-[ ] inception
-[ ] jaws
-[ ] amadeus 
-[ ] once upon a time in america 
-[ ] spirited away
-[ ] breaking the waves 
-[ ] American psycho 
-[ ] magnolia 
-[ ] the terminator
-[ ] West Side Story
-[ ] the pianist 
-[ ] The Thin Red Line
-[ ] easy rider
-[ ] clerks 
-[ ] Akira 
-[ ] Lost highway 
-[ ] The fly
-[ ] interstellar 
  
-## Candidates...
+## Movies Candidates...
 [ ] 12 Angry Men
 [ ] ikuru  
 [ ] metropolis 
@@ -108,7 +48,6 @@
 [ ] Jacob's Ladder
 [ ] The elephant man 
 [ ] incendies 
-
 [ ] Barton Fink
 [ ] Stranger Than Paradise
 
