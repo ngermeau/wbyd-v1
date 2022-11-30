@@ -1,345 +1,623 @@
 {
-    "movies": [
-        {
-            "title": "taxi driver",
-            "year": 1976,
-            "director": "Martin Scorsese",
-            "runningTime": "1h54",
-            "thumbPath": "img/taxi-driver.jpg",
-            "tag": "Crime - Drama",
-            "imdbScore": "8.2",
-            "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
-        },
-        {
-            "title": "Pulp fiction",
-            "year": 1994,
-            "director": "Quentin Tarantino",
-            "runningTime": "2h34",
-            "thumbPath": "img/pulp-fiction.jpg",
-            "tag": "Crime - Drama",
-            "imdbScore": "8.9",
-            "synopsis": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action."
-        },
-        {
-            "title": "Alien 1",
-            "year": 1979,
-            "director": "Ridley Scott",
-            "runningTime": "1h57",
-            "thumbPath": "img/alien-1.jpg",
-            "tag": "Horror - SciFi",
-            "imdbScore": "8.5",
-            "synopsis": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission."
-        },
-        {
-            "title": "Apocalypse Now",
-            "year": 1979,
-            "director": "Francis Ford Coppola",
-            "runningTime": "2h27",
-            "thumbPath": "img/apocalypse-now.jpg",
-            "tag": "Drama - Mystery - War",
-            "imdbScore": "8.5",
-            "synopsis": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
-        },
-        {
-            "title": "Blade Runner",
-            "year": 1982,
-            "director": "Ridley Scott",
-            "runningTime": "1h57",
-            "thumbPath": "img/blade-runner.jpg",
-            "tag": "Action - Drama - SciFi",
-            "imdbScore": "8.1",
-            "synopsis": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator."
-        },
-        {
-            "title": "Brazil",
-            "year": 1985,
-            "director": "Terry Gilliam",
-            "runningTime": "2h12",
-            "thumbPath": "img/brazil.jpg",
-            "tag": "Drama - SciFi",
-            "imdbScore": "7.9",
-            "synopsis": "A bureaucrat in a dystopic society becomes an enemy of the state as he pursues the woman of his dreams."
-        },
-        {
-            "title": "Eraserhead",
-            "year": 1977,
-            "director": "David Lynch",
-            "runningTime": "1h29",
-            "thumbPath": "img/eraserhead.jpg",
-            "tag": "Fantasy - Horror",
-            "imdbScore": "7.3",
-            "synopsis": "Henry Spencer tries to survive his industrial environment, his angry girlfriend, and the unbearable screams of his newly born mutant child."
-        },
-        {
-            "title": "Requiem for a dream",
-            "year": 2000,
-            "director": "Darren Aronofsky",
-            "runningTime": "1h42",
-            "thumbPath": "img/requiem-for-a-dream.jpg",
-            "tag": "Drama",
-            "imdbScore": "8.3",
-            "synopsis": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep."
-        },
-        {
-            "title": "Reservoir Dogs",
-            "year": 1992,
-            "director": "Quentin Tarantino",
-            "runningTime": "1h39",
-            "thumbPath": "img/reservoir-dogs.webp",
-            "tag": "Crime - Thriller",
-            "imdbScore": "8.3",
-            "synopsis": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant."
-        },
-        {
-            "title": "The Shining",
-            "year": 1980,
-            "director": "Stanley Kubrick",
-            "runningTime": "2h26",
-            "thumbPath": "img/the-shining.jpg",
-            "tag": "Drama - Horror",
-            "imdbScore": "8.4",
-            "synopsis": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future."
-        },
-        {
-            "title": "The Texas Chain Saw Massacre",
-            "year": 1974,
-            "director": "Tobe Hooper",
-            "runningTime": "1h23",
-            "thumbPath": "img/the-texas-chainsaw-massacre.jpg",
-            "tag": "Horror",
-            "imdbScore": "7.4",
-            "synopsis": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw."
-        },
-        {
-            "title": "Bagdad Cafe",
-            "year": 1987,
-            "director": "Percy Adlon",
-            "runningTime": "1h35",
-            "thumbPath": "img/bagdad-cafe.jpg",
-            "tag": "Comedy - Drama",
-            "imdbScore": "7.4",
-            "synopsis": "A lonely German woman ends up in the most desolate motel on Earth and decides to make it brighter."
-        },
-        {
-            "title": "The Good, the Bad and the Ugly",
-            "year": 1966,
-            "director": "Sergio Leone",
-            "runningTime": "2h58",
-            "thumbPath": "img/the-good-the-bad-and-the-ugly.jpg",
-            "tag": "Adventure - Western",
-            "imdbScore": "8.8",
-            "synopsis": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
-        },
-        {
-            "title": "The Big Lebowski",
-            "year": 1998,
-            "director": "Joel and Ethan Coen",
-            "runningTime": "1h57",
-            "thumbPath": "img/the-big-lebowski.jpg",
-            "tag": "Comedy - Crime",
-            "imdbScore": "8.1",
-            "synopsis": "Ultimate L.A. slacker Jeff 'The Dude' Lebowski, mistaken for a millionaire of the same name, seeks restitution for a rug ruined by debt collectors, enlisting his bowling buddies for help while trying to find the millionaire's missing wife."
-        },
-        {
-            "title": "Fear and Loathing in Las Vegas",
-            "year": 1998,
-            "director": "Terry Gilliam",
-            "runningTime": "1h58",
-            "thumbPath": "img/fear-and-loathing-in-las-vegas.jpg",
-            "tag": "Adventure - Comedy - Drama",
-            "imdbScore": "7.5",
-            "synopsis": "An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades."
-        },
-        {
-            "title": "Deadman",
-            "year": 1995,
-            "director": "Jim Jarmush",
-            "runningTime": "2h01",
-            "thumbPath": "img/deadman.jpg",
-            "tag": "Adventure - Drama - Fantasy",
-            "imdbScore": "7.5",
-            "synopsis": "On the run after murdering a man, accountant William Blake encounters a strange aboriginal American man named Nobody who prepares him for his journey into the spiritual world."
-        },
-        {
-            "title": "Blue Velvet",
-            "year": 1986,
-            "director": "David Lynch",
-            "runningTime": "2h00",
-            "thumbPath": "img/blue-velvet.jpg",
-            "tag": "Drama - Crime - Mystery",
-            "imdbScore": "7.7",
-            "synopsis": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child."
-        },
-        {
-            "title": "The Thing",
-            "year": 1982,
-            "director": "John Carpenter",
-            "runningTime": "1h49",
-            "thumbPath": "img/the-thing.jpg",
-            "tag": "Mystery - Horror - SciFi",
-            "imdbScore": "8.2",
-            "synopsis": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims."
-        },
-        {
-            "title": "The Rocky Horror Picture Show",
-            "year": 1975,
-            "director": "Jim Sharman",
-            "runningTime": "1h40",
-            "thumbPath": "img/the-rocky-horror-picture-show.jpg",
-            "tag": "Comedy - Horror - Musical",
-            "imdbScore": "7.4",
-            "synopsis": "A newly-engaged couple have a breakdown in an isolated area and must seek shelter at the bizarre residence of Dr. Frank-n-Furter."
-        },
-        {
-            "title": "Monty Python and the Holy Grail",
-            "year": 1975,
-            "director": "Terry Gilliam",
-            "runningTime": "1h31",
-            "thumbPath": "img/monthy-python-and-the-holy-grail.jpg",
-            "tag": "Adventure - Comedy - Fantasy",
-            "imdbScore": "8.2",
-            "synopsis": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles."
-        },
-        {
-            "title": "Scarface",
-            "year": 1983,
-            "director": "Brian De Palma",
-            "runningTime": "2h50",
-            "thumbPath": "img/scarface.jpg",
-            "tag": "Crime - Drama",
-            "imdbScore": "8.3",
-            "synopsis": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed."
-        },
-        {
-            "title": "2001 A Space Oddyssey",
-            "year": 1968,
-            "director": "Stanley Kubrick",
-            "runningTime": "2h29",
-            "thumbPath": "img/2001-a-space-odyssey.jpg",
-            "tag": "Adventure - SciFi",
-            "imdbScore": "8.3",
-            "synopsis": "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000."
-        },
-        {
-            "title": "The Godfather",
-            "year": 1972,
-            "director": "Francis Ford Coppola",
-            "runningTime": "2h55",
-            "thumbPath": "img/the-godfather.jpg",
-            "tag": "Crime - Drama",
-            "imdbScore": "9.2",
-            "synopsis": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
-        },
-        {
-            "title": "Trainspotting",
-            "year": 1996,
-            "director": "Danny Boyle",
-            "runningTime": "1h33",
-            "thumbPath": "img/trainspotting.jpg",
-            "tag": "Drama",
-            "imdbScore": "8.1",
-            "synopsis": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends."
-        },
-        {
-            "title": "Goodfellas",
-            "year": 1990,
-            "director": "Martin Scorsese",
-            "runningTime": "2h25",
-            "thumbPath": "img/goodfellas.webp",
-            "tag": "Biography - Crime - Drama",
-            "imdbScore": "8.7",
-            "synopsis": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
-        },
-        {
-            "title": "The Matrix",
-            "year": 1999,
-            "director": "Wachowski sisters",
-            "runningTime": "2h16",
-            "thumbPath": "img/the-matrix.jpg",
-            "tag": "Action - SciFi",
-            "imdbScore": "8.7",
-            "synopsis": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
-        },
-        {
-            "title": "The Silence of the lambs",
-            "year": 1991,
-            "director": "Jonathan Demme",
-            "runningTime": "1h58",
-            "thumbPath": "img/the-silence-of-the-lambs.jpg",
-            "tag": "Crime - Drama - Thriller",
-            "imdbScore": "8.6",
-            "synopsis": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
-        },
-        {
-            "title": "Barry Lyndon",
-            "year": 1975,
-            "director": "Stanley Kubrick",
-            "runningTime": "3h05",
-            "thumbPath": "img/barry-lyndon.jpg",
-            "tag": "Adventure - Drama - War",
-            "imdbScore": "8.1",
-            "synopsis": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England."
-        },
-        {
-            "title": "Fight Club",
-            "year": 1999,
-            "director": "David Fincher",
-            "runningTime": "2h19",
-            "thumbPath": "img/fight-club.webp",
-            "tag": "Drama",
-            "imdbScore": "8.1",
-            "synopsis": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
-        },
-        {
-            "title": "Das boot",
-            "year": 1981,
-            "director": "Wolfgang Petersen",
-            "runningTime": "2h29",
-            "thumbPath": "img/das-boot.jpg",
-            "tag": "Drama - War",
-            "imdbScore": "8.4",
-            "synopsis": "A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic world of a submariner in World War II."
-        },
-        {
-            "title": "One Flew Over the Cuckoo's Nest",
-            "year": 1975,
-            "director": "Milos Forman",
-            "runningTime": "2h13",
-            "thumbPath": "img/one-flew-over-the-cuckoos-nest.jpg",
-            "tag": "Drama",
-            "imdbScore": "8.7",
-            "synopsis": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse."
-        },
-        {
-            "title": "The Name of the Rose",
-            "year": 1986,
-            "director": "Jean-Jacques Annaud",
-            "runningTime": "2h10",
-            "thumbPath": "img/the-name-of-the-rose.jpg",
-            "tag": "Drama - History - Mystery",
-            "imdbScore": "7.7",
-            "synopsis": "An intellectually nonconformist friar investigates a series of mysterious deaths in an isolated abbey."
-        },
-        {
-            "title": "There Will Be Blood",
-            "year": 2007,
-            "director": "Paul T. Anderson",
-            "runningTime": "2h38",
-            "thumbPath": "img/there-will-be-blood.jpg",
-            "tag": "Drama",
-            "imdbScore": "8.2",
-            "synopsis": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business."
-        },
-        {
-            "title": "A Clockwork Orange",
-            "year": 1971,
-            "director": "Stanley Kubrick",
-            "runningTime": "2h16",
-            "thumbPath": "img/a-clockwork-orange.jpg",
-            "trailerLink": "https://www.youtube.com/watch?v=T54uZPI4Z8A",
-            "tag": "Drama",
-            "imdbScore": "8.2",
-            "synopsis": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned."
-        }
-    ]
+  "movies": [
+    {
+      "title": "taxi driver",
+      "year": 1976,
+      "director": "Martin Scorsese",
+      "runningTime": "1h54",
+      "thumbPath": "img/taxi-driver.jpg",
+      "tag": "Crime - Drama",
+      "trailerLink": "https://www.youtube.com/watch?v=UUxD4-dEzn0",
+      "imdbScore": "8.2",
+      "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+    {
+      "title": "Pulp fiction",
+      "year": 1994,
+      "director": "Quentin Tarantino",
+      "runningTime": "2h34",
+      "thumbPath": "img/pulp-fiction.jpg",
+      "tag": "Crime - Drama",
+      "imdbScore": "8.9",
+      "synopsis": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action."
+    },
+    {
+      "title": "Alien 1",
+      "year": 1979,
+      "director": "Ridley Scott",
+      "runningTime": "1h57",
+      "thumbPath": "img/alien-1.jpg",
+      "tag": "Horror - SciFi",
+      "imdbScore": "8.5",
+      "synopsis": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission."
+    },
+    {
+      "title": "Apocalypse Now",
+      "year": 1979,
+      "director": "Francis Ford Coppola",
+      "runningTime": "2h27",
+      "thumbPath": "img/apocalypse-now.jpg",
+      "tag": "Drama - Mystery - War",
+      "imdbScore": "8.5",
+      "synopsis": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
+    },
+    {
+      "title": "Blade Runner",
+      "year": 1982,
+      "director": "Ridley Scott",
+      "runningTime": "1h57",
+      "thumbPath": "img/blade-runner.jpg",
+      "tag": "Action - Drama - SciFi",
+      "imdbScore": "8.1",
+      "synopsis": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator."
+    },
+    {
+      "title": "Brazil",
+      "year": 1985,
+      "director": "Terry Gilliam",
+      "runningTime": "2h12",
+      "thumbPath": "img/brazil.jpg",
+      "tag": "Drama - SciFi",
+      "imdbScore": "7.9",
+      "synopsis": "A bureaucrat in a dystopic society becomes an enemy of the state as he pursues the woman of his dreams."
+    },
+    {
+      "title": "Eraserhead",
+      "year": 1977,
+      "director": "David Lynch",
+      "runningTime": "1h29",
+      "thumbPath": "img/eraserhead.jpg",
+      "tag": "Fantasy - Horror",
+      "imdbScore": "7.3",
+      "synopsis": "Henry Spencer tries to survive his industrial environment, his angry girlfriend, and the unbearable screams of his newly born mutant child."
+    },
+    {
+      "title": "Requiem for a dream",
+      "year": 2000,
+      "director": "Darren Aronofsky",
+      "runningTime": "1h42",
+      "thumbPath": "img/requiem-for-a-dream.jpg",
+      "tag": "Drama",
+      "imdbScore": "8.3",
+      "synopsis": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep."
+    },
+    {
+      "title": "Reservoir Dogs",
+      "year": 1992,
+      "director": "Quentin Tarantino",
+      "runningTime": "1h39",
+      "thumbPath": "img/reservoir-dogs.webp",
+      "tag": "Crime - Thriller",
+      "imdbScore": "8.3",
+      "synopsis": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant."
+    },
+    {
+      "title": "The Shining",
+      "year": 1980,
+      "director": "Stanley Kubrick",
+      "runningTime": "2h26",
+      "thumbPath": "img/the-shining.jpg",
+      "tag": "Drama - Horror",
+      "imdbScore": "8.4",
+      "synopsis": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future."
+    },
+    {
+      "title": "The Texas Chain Saw Massacre",
+      "year": 1974,
+      "director": "Tobe Hooper",
+      "runningTime": "1h23",
+      "thumbPath": "img/the-texas-chainsaw-massacre.jpg",
+      "tag": "Horror",
+      "imdbScore": "7.4",
+      "synopsis": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw."
+    },
+    {
+      "title": "Bagdad Cafe",
+      "year": 1987,
+      "director": "Percy Adlon",
+      "runningTime": "1h35",
+      "thumbPath": "img/bagdad-cafe.jpg",
+      "tag": "Comedy - Drama",
+      "imdbScore": "7.4",
+      "synopsis": "A lonely German woman ends up in the most desolate motel on Earth and decides to make it brighter."
+    },
+    {
+      "title": "The Good, the Bad and the Ugly",
+      "year": 1966,
+      "director": "Sergio Leone",
+      "runningTime": "2h58",
+      "thumbPath": "img/the-good-the-bad-and-the-ugly.jpg",
+      "tag": "Adventure - Western",
+      "imdbScore": "8.8",
+      "synopsis": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+    },
+    {
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "director": "Joel and Ethan Coen",
+      "runningTime": "1h57",
+      "thumbPath": "img/the-big-lebowski.jpg",
+      "tag": "Comedy - Crime",
+      "imdbScore": "8.1",
+      "synopsis": "Ultimate L.A. slacker Jeff 'The Dude' Lebowski, mistaken for a millionaire of the same name, seeks restitution for a rug ruined by debt collectors, enlisting his bowling buddies for help while trying to find the millionaire's missing wife."
+    },
+    {
+      "title": "Fear and Loathing in Las Vegas",
+      "year": 1998,
+      "director": "Terry Gilliam",
+      "runningTime": "1h58",
+      "thumbPath": "img/fear-and-loathing-in-las-vegas.jpg",
+      "tag": "Adventure - Comedy - Drama",
+      "imdbScore": "7.5",
+      "synopsis": "An oddball journalist and his psychopathic lawyer travel to Las Vegas for a series of psychedelic escapades."
+    },
+    {
+      "title": "Deadman",
+      "year": 1995,
+      "director": "Jim Jarmush",
+      "runningTime": "2h01",
+      "thumbPath": "img/deadman.jpg",
+      "tag": "Adventure - Drama - Fantasy",
+      "imdbScore": "7.5",
+      "synopsis": "On the run after murdering a man, accountant William Blake encounters a strange aboriginal American man named Nobody who prepares him for his journey into the spiritual world."
+    },
+    {
+      "title": "Blue Velvet",
+      "year": 1986,
+      "director": "David Lynch",
+      "runningTime": "2h00",
+      "thumbPath": "img/blue-velvet.jpg",
+      "tag": "Drama - Crime - Mystery",
+      "imdbScore": "7.7",
+      "synopsis": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child."
+    },
+    {
+      "title": "The Thing",
+      "year": 1982,
+      "director": "John Carpenter",
+      "runningTime": "1h49",
+      "thumbPath": "img/the-thing.jpg",
+      "tag": "Mystery - Horror - SciFi",
+      "imdbScore": "8.2",
+      "synopsis": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims."
+    },
+    {
+      "title": "Monty Python and the Holy Grail",
+      "year": 1975,
+      "director": "Terry Gilliam",
+      "runningTime": "1h31",
+      "thumbPath": "img/monthy-python-and-the-holy-grail.jpg",
+      "tag": "Adventure - Comedy - Fantasy",
+      "imdbScore": "8.2",
+      "synopsis": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles."
+    },
+    {
+      "title": "Scarface",
+      "year": 1983,
+      "director": "Brian De Palma",
+      "runningTime": "2h50",
+      "thumbPath": "img/scarface.jpg",
+      "tag": "Crime - Drama",
+      "imdbScore": "8.3",
+      "synopsis": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed."
+    },
+    {
+      "title": "2001 A Space Oddyssey",
+      "year": 1968,
+      "director": "Stanley Kubrick",
+      "runningTime": "2h29",
+      "thumbPath": "img/2001-a-space-odyssey.jpg",
+      "tag": "Adventure - SciFi",
+      "imdbScore": "8.3",
+      "synopsis": "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000."
+    },
+    {
+      "title": "The Godfather",
+      "year": 1972,
+      "director": "Francis Ford Coppola",
+      "runningTime": "2h55",
+      "thumbPath": "img/the-godfather.jpg",
+      "tag": "Crime - Drama",
+      "imdbScore": "9.2",
+      "synopsis": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
+    },
+    {
+      "title": "Trainspotting",
+      "year": 1996,
+      "director": "Danny Boyle",
+      "runningTime": "1h33",
+      "thumbPath": "img/trainspotting.jpg",
+      "tag": "Drama",
+      "imdbScore": "8.1",
+      "synopsis": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends."
+    },
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "director": "Martin Scorsese",
+      "runningTime": "2h25",
+      "thumbPath": "img/goodfellas.webp",
+      "tag": "Biography - Crime - Drama",
+      "imdbScore": "8.7",
+      "synopsis": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
+    },
+    {
+      "title": "The Matrix",
+      "year": 1999,
+      "director": "Wachowski sisters",
+      "runningTime": "2h16",
+      "thumbPath": "img/the-matrix.jpg",
+      "tag": "Action - SciFi",
+      "imdbScore": "8.7",
+      "synopsis": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+    },
+    {
+      "title": "A Clockwork Orange",
+      "year": 1971,
+      "director": "Stanley Kubrick",
+      "runningTime": "2h16",
+      "thumbPath": "img/a-clockwork-orange.jpg",
+      "trailerLink": "https://www.youtube.com/watch?v=T54uZPI4Z8A",
+      "tag": "Drama",
+      "imdbScore": "8.2",
+      "synopsis": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned."
+    },
+    {
+      "title": "The Silence of the lambs",
+      "year": 1991,
+      "director": "Jonathan Demme",
+      "runningTime": "1h58",
+      "thumbPath": "img/the-silence-of-the-lambs.jpg",
+      "tag": "Crime - Drama - Thriller",
+      "imdbScore": "8.6",
+      "synopsis": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+    },
+    {
+      "title": "Barry Lyndon",
+      "year": 1975,
+      "director": "Stanley Kubrick",
+      "runningTime": "3h05",
+      "thumbPath": "img/barry-lyndon.jpg",
+      "tag": "Adventure - Drama - War",
+      "imdbScore": "8.1",
+      "synopsis": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England."
+    },
+    {
+      "title": "Fight Club",
+      "year": 1999,
+      "director": "David Fincher",
+      "runningTime": "2h19",
+      "thumbPath": "img/fight-club.webp",
+      "tag": "Drama",
+      "imdbScore": "8.1",
+      "synopsis": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
+    },
+    {
+      "title": "Das boot",
+      "year": 1981,
+      "director": "Wolfgang Petersen",
+      "runningTime": "2h29",
+      "thumbPath": "img/das-boot.jpg",
+      "tag": "Drama - War",
+      "imdbScore": "8.4",
+      "synopsis": "A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic world of a submariner in World War II."
+    },
+    {
+      "title": "One Flew Over the Cuckoo's Nest",
+      "year": 1975,
+      "director": "Milos Forman",
+      "runningTime": "2h13",
+      "thumbPath": "img/one-flew-over-the-cuckoos-nest.jpg",
+      "tag": "Drama",
+      "imdbScore": "8.7",
+      "synopsis": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse."
+    },
+    {
+      "title": "The Name of the Rose",
+      "year": 1986,
+      "director": "Jean-Jacques Annaud",
+      "runningTime": "2h10",
+      "thumbPath": "img/the-name-of-the-rose.jpg",
+      "tag": "Drama - History - Mystery",
+      "imdbScore": "7.7",
+      "synopsis": "An intellectually nonconformist friar investigates a series of mysterious deaths in an isolated abbey."
+    },
+    {
+      "title": "full metal jacket",
+      "year": "1987",
+      "director": "Stanley Kubrick",
+      "runningTime": "1h 56min",
+      "trailerLink": "",
+      "thumbPath": "img/full-metal-jacket.jpg",
+      "tag": "Drama - War",
+      "imdbScore": "8.3",
+      "synopsis": "A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue."
+    },
+    {
+      "title": "casablanca",
+      "year": "1942",
+      "director": "Michael Curtiz",
+      "runningTime": "1h 42min",
+      "trailerLink": "",
+      "thumbPath": "img/casablanca.jpg",
+      "tag": "Drama - Romance - War",
+      "imdbScore": "8.5",
+      "synopsis": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco."
+    },
+    {
+      "title": "psycho",
+      "year": "1960",
+      "director": "Alfred Hitchcock",
+      "runningTime": "1h 49min",
+      "trailerLink": "",
+      "thumbPath": "img/psycho.jpg",
+      "tag": "Horror - Mystery - Thriller",
+      "imdbScore": "8.5",
+      "synopsis": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother."
+    },
+    {
+      "title": "vertigo",
+      "year": "1958",
+      "director": "Alfred Hitchcock",
+      "runningTime": "2h 8min",
+      "trailerLink": "",
+      "thumbPath": "img/vertigo.jpg",
+      "tag": "Mystery - Romance - Thriller",
+      "imdbScore": "8.3",
+      "synopsis": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed."
+    },
+    {
+      "title": "modern times",
+      "year": "1936",
+      "director": "Charles Chaplin",
+      "runningTime": "1h 27min",
+      "trailerLink": "",
+      "thumbPath": "img/modern-times.jpg",
+      "tag": "Comedy - Drama - Romance",
+      "imdbScore": "8.5",
+      "synopsis": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman."
+    },
+    {
+      "title": "memento",
+      "year": "2000",
+      "director": "Christopher Nolan",
+      "runningTime": "1h 53min",
+      "trailerLink": "",
+      "thumbPath": "img/memento.jpg",
+      "tag": "Mystery - Thriller",
+      "imdbScore": "8.4",
+      "synopsis": "A man with short-term memory loss attempts to track down his wife's murderer."
+    },
+    {
+      "title": "fargo",
+      "year": "2014",
+      "director": "",
+      "runningTime": null,
+      "trailerLink": "",
+      "thumbPath": "img/fargo.jpg",
+      "tag": "Crime - Drama - Thriller",
+      "imdbScore": "8.9",
+      "synopsis": "Various chronicles of deception, intrigue and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota."
+    },
+    {
+      "title": "raging bull",
+      "year": "1980",
+      "director": "Martin Scorsese",
+      "runningTime": "2h 9min",
+      "trailerLink": "",
+      "thumbPath": "img/raging-bull.jpg",
+      "tag": "Biography - Drama - Sport",
+      "imdbScore": "8.2",
+      "synopsis": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
+    },
+    {
+      "title": "chinatown",
+      "year": "1974",
+      "director": "Roman Polanski",
+      "runningTime": "2h 10min",
+      "trailerLink": "",
+      "thumbPath": "img/chinatown.jpg",
+      "tag": "Drama - Mystery - Thriller",
+      "imdbScore": "8.2",
+      "synopsis": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder."
+    },
+    {
+      "title": "the deer hunter",
+      "year": "1978",
+      "director": "Michael Cimino",
+      "runningTime": "3h 3min",
+      "trailerLink": "",
+      "thumbPath": "img/the-deer-hunter.jpg",
+      "tag": "Drama - War",
+      "imdbScore": "8.1",
+      "synopsis": "An in-depth examination of the ways in which the Vietnam War impacts and disrupts the lives of several friends in a small steel mill town in Pennsylvania."
+    },
+    {
+      "title": "platoon",
+      "year": "1986",
+      "director": "Oliver Stone",
+      "runningTime": "2h",
+      "trailerLink": "",
+      "thumbPath": "img/platoon.jpg",
+      "tag": "Drama - War",
+      "imdbScore": "8.1",
+      "synopsis": "Chris Taylor, a neophyte recruit in Vietnam, finds himself caught in a battle of wills between two sergeants, one good and the other evil. A shrewd examination of the brutality of war and the duality of man in conflict."
+    },
+    {
+      "title": "the mission",
+      "year": "1986",
+      "director": "Roland Joffé",
+      "runningTime": "2h 5min",
+      "trailerLink": "",
+      "thumbPath": "img/the-mission.jpg",
+      "tag": "Adventure - Drama - History",
+      "imdbScore": "7.4",
+      "synopsis": "Eighteenth-century Spanish Jesuits try to protect a remote South American tribe in danger of falling under the rule of pro-slavery Portugal."
+    },
+    {
+      "title": "No Country for Old Men",
+      "year": "2007",
+      "director": "Ethan Coen, Joel Coen",
+      "runningTime": "2h 2min",
+      "trailerLink": "",
+      "thumbPath": "img/No-Country-for-Old-Men.jpg",
+      "tag": "Crime - Drama - Thriller",
+      "imdbScore": "8.2",
+      "synopsis": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande."
+    },
+    {
+      "title": "parasite",
+      "year": "2019",
+      "director": "Bong Joon Ho",
+      "runningTime": "2h 12min",
+      "trailerLink": "",
+      "thumbPath": "img/parasite.jpg",
+      "tag": "Drama - Thriller",
+      "imdbScore": "8.5",
+      "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+    },
+    {
+      "title": "there will be blood",
+      "year": "2007",
+      "director": "Paul Thomas Anderson",
+      "runningTime": "2h 38min",
+      "trailerLink": "",
+      "thumbPath": "img/there-will-be-blood.jpg",
+      "tag": "Drama",
+      "imdbScore": "8.2",
+      "synopsis": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business."
+    },
+    {
+      "title": "Schindler's List",
+      "year": "1993",
+      "director": "Steven Spielberg",
+      "runningTime": "3h 15min",
+      "trailerLink": "",
+      "thumbPath": "img/Schindler-s-List.jpg",
+      "tag": "Biography - Drama - History",
+      "imdbScore": "9",
+      "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+    },
+    {
+      "title": "inception",
+      "year": "2010",
+      "director": "Christopher Nolan",
+      "runningTime": "2h 28min",
+      "trailerLink": "",
+      "thumbPath": "img/inception.jpg",
+      "tag": "Action - Adventure - Sci-Fi",
+      "imdbScore": "8.8",
+      "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
+    },
+    {
+      "title": "jaws",
+      "year": "1975",
+      "director": "Steven Spielberg",
+      "runningTime": "2h 4min",
+      "trailerLink": "",
+      "thumbPath": "img/jaws.jpg",
+      "tag": "Adventure - Thriller",
+      "imdbScore": "8.1",
+      "synopsis": "When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down."
+    },
+    {
+      "title": "amadeus",
+      "year": "1984",
+      "director": "Milos Forman",
+      "runningTime": "2h 40min",
+      "trailerLink": "",
+      "thumbPath": "img/amadeus.jpg",
+      "tag": "Biography - Drama - Music",
+      "imdbScore": "8.4",
+      "synopsis": "The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was deeply jealous of Mozart's talent and claimed to have murdered him."
+    },
+    {
+      "title": "spirited away",
+      "year": "2001",
+      "director": "Hayao Miyazaki",
+      "runningTime": "2h 5min",
+      "trailerLink": "",
+      "thumbPath": "img/spirited-away.jpg",
+      "tag": "Animation - Adventure - Family",
+      "imdbScore": "8.6",
+      "synopsis": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+    },
+    {
+      "title": "magnolia",
+      "year": "1999",
+      "director": "Paul Thomas Anderson",
+      "runningTime": "3h 8min",
+      "trailerLink": "",
+      "thumbPath": "img/magnolia.jpg",
+      "tag": "Drama",
+      "imdbScore": "8",
+      "synopsis": "An epic mosaic of interrelated characters in search of love, forgiveness and meaning in the San Fernando Valley."
+    },
+    {
+      "title": "the terminator",
+      "year": "1984",
+      "director": "James Cameron",
+      "runningTime": "1h 47min",
+      "trailerLink": "",
+      "thumbPath": "img/the-terminator.jpg",
+      "tag": "Action - Sci-Fi",
+      "imdbScore": "8.1",
+      "synopsis": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvat..."
+    },
+    {
+      "title": "West Side Story",
+      "year": "2021",
+      "director": "Steven Spielberg",
+      "runningTime": "2h 36min",
+      "trailerLink": "",
+      "thumbPath": "img/West-Side-Story.jpg",
+      "tag": "Crime - Drama - Musical",
+      "imdbScore": "7.2",
+      "synopsis": "An adaptation of the 1957 musical, West Side Story explores forbidden love and the rivalry between the Jets and the Sharks, two teenage street gangs of different ethnic backgrounds."
+    },
+    {
+      "title": "The Thin Red Line",
+      "year": "1998",
+      "director": "Terrence Malick",
+      "runningTime": "2h 50min",
+      "trailerLink": "",
+      "thumbPath": "img/The-Thin-Red-Line.jpg",
+      "tag": "Drama - History - War",
+      "imdbScore": "7.6",
+      "synopsis": "Adaptation of James Jones' autobiographical 1962 novel, focusing on the conflict at Guadalcanal during the second World War."
+    },
+    {
+      "title": "easy rider",
+      "year": "1969",
+      "director": "Dennis Hopper",
+      "runningTime": "1h 35min",
+      "trailerLink": "",
+      "thumbPath": "img/easy-rider.jpg",
+      "tag": "Adventure - Drama",
+      "imdbScore": "7.3",
+      "synopsis": "Two bikers head from L.A. to New Orleans through the open country and desert lands, and along the way they meet a man who bridges a counter-culture gap of which they had been unaware."
+    },
+    {
+      "title": "clerks",
+      "year": "1994",
+      "director": "Kevin Smith",
+      "runningTime": "1h 32min",
+      "trailerLink": "",
+      "thumbPath": "img/clerks.jpg",
+      "tag": "Comedy",
+      "imdbScore": "7.7",
+      "synopsis": "A day in the lives of two convenience clerks named Dante and Randal as they annoy customers, discuss movies, and play hockey on the store roof."
+    },
+    {
+      "title": "Akira",
+      "year": "1988",
+      "director": "Katsuhiro Ôtomo",
+      "runningTime": "2h 4min",
+      "trailerLink": "",
+      "thumbPath": "img/Akira.jpg",
+      "tag": "Animation - Action - Drama",
+      "imdbScore": "8",
+      "synopsis": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath who can only be stopped by a teenager, his gang of biker friends and a group of psychics."
+    }
+  ]
 }

@@ -1,15 +1,17 @@
 # Todo
 [ ] add all movies with trailers 
-[ ] going back to correct movie when going back in mobile 
-[ ] More link in mobile version is not vissible at all (round border ?)
-[ ] make all images pop !   
 [ ] compress all img to webp standard  
+[ ] make all images pop !   
+[ ] rewrite info
+[ ] buy domain name 
 [ ] seo and google analytics   
 [ ] release on the web   
-[ ] check loading time   
+
+[ ] check responsive version in landscape on all devices mode (including phone landscape)
+[ ] More link in mobile version is not vissible at all (round border ?)
 [ ] update readme.md with screenshot
+[ ] check loading time   
 [ ] use scss
-[ ] Responsive version in landscape mode is not ok
 [ ] can have only one absolut info box instead of two.
 [ ] load image as we scroll 
 [ ] get json from node server 
@@ -27,11 +29,16 @@
 [x] finish about card 
 [x] add hover with synopsis and watch trailer 
 [x] apply hover effects with synopsis  (https://freefrontend.com/css-movie-cards/)
+[x] going back to correct movie when going back in mobile 
 
 
 
  
 ## Movies Candidates...
+[ ] being john malkovish
+[ ] whisplash 
+[ ] underground
+[ ] A Prophet
 [ ] 12 Angry Men
 [ ] ikuru  
 [ ] metropolis 
@@ -43,12 +50,12 @@
 [ ] la grande bouffe
 [ ] The Umbrellas of Cherbourg
 [ ] Delicatessen
-[ ] A Prophet
 [ ] Enter the Void
 [ ] Jacob's Ladder
 [ ] The elephant man 
 [ ] incendies 
 [ ] Barton Fink
 [ ] Stranger Than Paradise
+[ ] the truman show 
 
 

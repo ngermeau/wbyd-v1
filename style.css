@@ -263,6 +263,10 @@ main {
     height: 3rem;
     font-size: 0.9rem;
   }
+  
+  .card {
+    scroll-snap-align: unset;
+  }
 
   .movie:hover::after {
     top: 0;
