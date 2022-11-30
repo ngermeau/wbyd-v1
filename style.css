@@ -34,7 +34,7 @@ body {
 main {
   height: 100vh;
   display: grid;
-  grid-auto-rows: 60%;
+  grid-auto-rows: 400px;
 }
 
 .container {
@@ -75,8 +75,8 @@ main {
 
 .header .link {
   position: absolute;
-  bottom: 10%;
-  right: 2%;
+  bottom: 10px;
+  right: 0;
   width: 3.75rem;
   height: 3.75rem;
   padding-top: 0.8rem;
@@ -255,7 +255,6 @@ main {
 
   .header .link {
     bottom: 2px;
-    right: 0;
     width: 3rem;
     height: 3rem;
     font-size: 0.9rem;
