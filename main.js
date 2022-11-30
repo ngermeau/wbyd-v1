@@ -31,7 +31,7 @@ function addAboutListeners() {
 }
 
 function addMoreInfoListeners() {
-  let moreElements = document.querySelectorAll(".movie__more-info");
+  let moreElements = document.querySelectorAll(".movie");
   moreElements.forEach((moreElem) => {
     moreElem.addEventListener("click", (e) => {
       let movieClassList = e.target.closest(".movie").classList;

@@ -35,8 +35,6 @@ main {
   height: 100vh;
   display: grid;
   grid-auto-rows: 60%;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
 }
 
 .container {
@@ -46,7 +44,6 @@ main {
 
 .card {
   position: relative;
-  scroll-snap-align: center;
 }
 
 .header,
@@ -264,10 +261,6 @@ main {
     font-size: 0.9rem;
   }
   
-  .card {
-    scroll-snap-align: unset;
-  }
-
   .movie:hover::after {
     top: 0;
     height: 100%;
