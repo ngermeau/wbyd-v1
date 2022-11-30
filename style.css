@@ -35,6 +35,8 @@ main {
   height: 100vh;
   display: grid;
   grid-auto-rows: 400px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
 .container {
@@ -44,6 +46,7 @@ main {
 
 .card {
   position: relative;
+  scroll-snap-align: center;
 }
 
 .header,
