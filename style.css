@@ -70,6 +70,15 @@ main {
 .heart {
   width: 1rem;
   display: inline;
+  position: relative;
+  top: 2px; 
+}
+
+.github {
+  width: 2rem;
+  display: inline;
+  position: relative;
+  top: 10px; 
 }
 
 .footer {
@@ -244,6 +253,10 @@ main {
     gap: 0.4rem;
   }
 
+  .card {
+    scroll-snap-align: unset;
+  }
+
   .main_letter {
     font-size: 8rem;
   }
@@ -262,7 +275,7 @@ main {
     height: 3rem;
     font-size: 0.9rem;
   }
-  
+
   .movie:hover::after {
     top: 0;
     height: 100%;

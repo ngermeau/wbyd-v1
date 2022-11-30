@@ -1,14 +1,12 @@
 # Todo
-[ ] add all movies with trailers 
-[ ] compress all img to webp standard  
-[ ] make all images pop !   
-[ ] rewrite info
+[ ] change size of image 
+[ ] add all trailers
+[ ] include loading animation for movies   
 [ ] buy domain name 
 [ ] seo and google analytics   
 [ ] release on the web   
 
 [ ] check responsive version in landscape on all devices mode (including phone landscape)
-[ ] More link in mobile version is not vissible at all (round border ?)
 [ ] update readme.md with screenshot
 [ ] check loading time   
 [ ] use scss
@@ -17,7 +15,7 @@
 [ ] get json from node server 
 
 # Nice to have 
-[ ] include loading animation for movies   
+[ ] make all images pop !   
 [ ] Create a better logo
 [ ] css 3d effects for cards 
 
@@ -30,7 +28,9 @@
 [x] add hover with synopsis and watch trailer 
 [x] apply hover effects with synopsis  (https://freefrontend.com/css-movie-cards/)
 [x] going back to correct movie when going back in mobile 
-
+[x] More link in mobile version is not vissible at all (click on full card)
+[x] add all movies 
+[x] rewrite info
 
 
  
