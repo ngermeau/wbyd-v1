@@ -86,7 +86,7 @@
       "year": 1992,
       "director": "Quentin Tarantino",
       "runningTime": "1h39",
-      "thumbPath": "img/reservoir-dogs.webp",
+      "thumbPath": "img/reservoir-dogs.jpg",
       "tag": "Crime - Thriller",
       "imdbScore": "8.3",
       "synopsis": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant."
@@ -460,7 +460,7 @@
       "director": "Ethan Coen, Joel Coen",
       "runningTime": "2h 2min",
       "trailerLink": "",
-      "thumbPath": "img/No-Country-for-Old-Men.jpg",
+      "thumbPath": "img/no-country-for-old-men.jpg",
       "tag": "Crime - Drama - Thriller",
       "imdbScore": "8.2",
       "synopsis": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande."
@@ -493,7 +493,7 @@
       "director": "Steven Spielberg",
       "runningTime": "3h 15min",
       "trailerLink": "",
-      "thumbPath": "img/Schindler-s-List.jpg",
+      "thumbPath": "img/schindler-s-List.jpg",
       "tag": "Biography - Drama - History",
       "imdbScore": "9",
       "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
@@ -570,7 +570,7 @@
       "director": "Steven Spielberg",
       "runningTime": "2h 36min",
       "trailerLink": "",
-      "thumbPath": "img/West-Side-Story.jpg",
+      "thumbPath": "img/west-side-story.jpg",
       "tag": "Crime - Drama - Musical",
       "imdbScore": "7.2",
       "synopsis": "An adaptation of the 1957 musical, West Side Story explores forbidden love and the rivalry between the Jets and the Sharks, two teenage street gangs of different ethnic backgrounds."
@@ -581,7 +581,7 @@
       "director": "Terrence Malick",
       "runningTime": "2h 50min",
       "trailerLink": "",
-      "thumbPath": "img/The-Thin-Red-Line.jpg",
+      "thumbPath": "img/the-thin-red-line.jpg",
       "tag": "Drama - History - War",
       "imdbScore": "7.6",
       "synopsis": "Adaptation of James Jones' autobiographical 1962 novel, focusing on the conflict at Guadalcanal during the second World War."
@@ -614,7 +614,7 @@
       "director": "Katsuhiro Ôtomo",
       "runningTime": "2h 4min",
       "trailerLink": "",
-      "thumbPath": "img/Akira.jpg",
+      "thumbPath": "img/akira.jpg",
       "tag": "Animation - Action - Drama",
       "imdbScore": "8",
       "synopsis": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath who can only be stopped by a teenager, his gang of biker friends and a group of psychics."
