@@ -5,7 +5,7 @@ $(document).ready(async () => {
 });
 
 async function renderMovies(movies) {
-  await fetch("movie.mustache")
+  await fetch("assets/mustache/movie.mustache")
     .then((response) => response.text())
     .then(async (template) => {
       await $.getJSON("movies.json", function (data) {
