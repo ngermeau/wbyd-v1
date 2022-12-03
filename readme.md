@@ -54,5 +54,17 @@
 [ ] incendies   
 [ ] Barton Fink  
 [ ] Stranger Than Paradise  
-[ ] the truman show   
+[ ] stalker (tarkovsky)
+[ ] burnt by the sun 
+[ ] no man's land 
+[ ] the royal tenenbaums 
+[ ] mississipi burning 
+[ ] the swimming pool
+[ ] le ruban blanc
+[ ] uncle bonnmee 
+[ ] bamako
+[ ] star wars 
+[ ] die hard 
+[ ] v for vendetta 
+[ ] lock stock 
 
