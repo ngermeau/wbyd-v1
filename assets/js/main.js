@@ -1,5 +1,6 @@
 $(document).ready(async () => {
   await renderMovies();
+  addAnimationDelay();
   addAboutListeners();
   addMoreInfoListeners();
 });
@@ -17,6 +18,17 @@ async function renderMovies(movies) {
       });
     });
 }
+
+function addAnimationDelay() {
+  let cards = document.querySelectorAll(".movie");
+  let delay = 0;
+  let delayStep= 0.1;
+  cards.forEach(card => {
+    card.style.setProperty("animation-delay",`${delay}s`);
+    delay+=delayStep;
+  });
+}
+
 
 function addAboutListeners() {
   document.querySelector(".about_link").addEventListener("click", () => {

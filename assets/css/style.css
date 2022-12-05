@@ -130,6 +130,19 @@ main {
 
 .movie {
   overflow: hidden;
+  opacity: 0;
+  animation-name: entrance;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+@keyframes entrance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .movie__fig {
@@ -226,6 +239,7 @@ main {
     opacity: 1;
   }
 }
+
 
 .movie__synopsis {
   text-align: center;
