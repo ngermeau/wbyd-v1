@@ -130,19 +130,6 @@ main {
 
 .movie {
   overflow: hidden;
-  opacity: 0;
-  animation-name: entrance;
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
-}
-
-@keyframes entrance {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .movie__fig {
@@ -289,6 +276,22 @@ main {
     height: 3rem;
     font-size: 0.9rem;
   }
+
+.movie {
+  opacity: 0;
+  animation-name: entrance;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+@keyframes entrance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
   .movie:hover::after {
     top: 0;
