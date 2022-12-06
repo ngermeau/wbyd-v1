@@ -2,13 +2,8 @@
 
 
 ## Todo
-[ ] add all trailers  
-[ ] include loading animation for movies    
-[ ] buy domain name  
-[ ] seo and google analytics   
-[ ] release on the web   
-[ ] check responsive version in landscape on all devices mode (including phone landscape)  
 [ ] update readme.md with screenshot  
+[ ] check responsive version in landscape on all devices mode (including phone landscape)  
 [ ] load image as we scroll    
 [ ] use scss  
 [ ] can have only one absolut info box instead of two  
@@ -31,6 +26,11 @@
 [x] add all movies  
 [x] rewrite info  
 [x] change size of image    
+[x] add all trailers  
+[x] include loading animation for movies    
+[x] buy domain name  
+[x] seo and google analytics   
+[x] release on the web   
 
 ## Movies Candidates...
 [ ] being john malkovish  
