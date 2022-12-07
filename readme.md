@@ -1,8 +1,12 @@
 # Watch Before You Die 
 
+An opinionated list of movies to watch before you die.  
+
+
 
 ## Todo
 [ ] update readme.md with screenshot  
+[ ] add seo 
 [ ] check responsive version in landscape on all devices mode (including phone landscape)  
 [ ] load image as we scroll    
 [ ] use scss  
@@ -40,6 +44,9 @@
 [ ] 12 Angry Men   
 [ ] ikuru  
 [ ] metropolis  
+[ ] city of god 
+[ ] lost highway
+[ ] dark city 
 [ ] in the names of the father  
 [ ] le salaire de la peur  
 [ ] Children of Paradise  
@@ -51,6 +58,10 @@
 [ ] Enter the Void  
 [ ] Jacob's Ladder  
 [ ] The elephant man   
+[ ] dr strangelove
+[ ] once upon a time in the west 
+[ ] boogie nights 
+[ ] lost in translation
 [ ] incendies   
 [ ] Barton Fink  
 [ ] Stranger Than Paradise  
@@ -67,4 +78,7 @@
 [ ] die hard 
 [ ] v for vendetta 
 [ ] lock stock 
+[ ] indiana jones 
+[ ] ghost in the shell
+[ ] bad lieutenant
 
