@@ -10,7 +10,7 @@ This repository is a compilation of movies to watch before you die.
 
 <p align="center">
   <a href="https://watchbeforeyoudie.com/">
-    <img src="screenhot.png" alt="Watch Before You Die Screenshot" width="267" height="372">
+    <img src="screenshot.png" alt="Watch Before You Die Screenshot" width="267" height="372">
   </a>
 </p>
 
