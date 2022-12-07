@@ -29,61 +29,63 @@ This repository is a compilation of movies to watch before you die.
 * For any contributions (bugs, features requests...) just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
 ## Movies Candidates
-[ ] bad lieutenant
-[ ] underground  
-[ ] metropolis  
-[ ] city of god 
-[ ] lost highway
-[ ] Jacob's Ladder  
-[ ] La haine   
-[ ] being john malkovish  
-[ ] whisplash   
-[ ] A Prophet  
-[ ] 12 Angry Men   
-[ ] ikuru  
-[ ] dark city 
-[ ] in the names of the father  
-[ ] le salaire de la peur  
-[ ] Children of Paradise  
-[ ] les Valseuses   
-[ ] la grande bouffe  
-[ ] The Umbrellas of Cherbourg  
-[ ] Delicatessen  
-[ ] Enter the Void  
-[ ] The elephant man   
-[ ] dr strangelove
-[ ] once upon a time in the west 
-[ ] boogie nights 
-[ ] lost in translation
-[ ] incendies   
-[ ] Barton Fink  
-[ ] Stranger Than Paradise  
-[ ] stalker (tarkovsky)
-[ ] burnt by the sun 
-[ ] no man's land 
-[ ] the royal tenenbaums 
-[ ] mississipi burning 
-[ ] the swimming pool
-[ ] le ruban blanc
-[ ] uncle bonnmee 
-[ ] bamako
-[ ] star wars 
-[ ] die hard 
-[ ] v for vendetta 
-[ ] lock stock 
-[ ] indiana jones 
-[ ] ghost in the shell
+[] bad lieutenant
+[] stalker 
+[] underground  
+[] metropolis  
+[] indiana jones   
+[] dr strangelove   
+[] once upon a time in the west   
+[] The Umbrellas of Cherbourg   
+[] ghost in the shell   
+[] le salaire de la peur  
+[] city of god 
+[] lost highway
+[] Jacob's Ladder  
+[] La haine   
+[] being john malkovish  
+[] whisplash   
+[] A Prophet  
+[] 12 Angry Men   
+[] ikuru  
+[] dark city 
+[] in the names of the father  
+[] Children of Paradise  
+[] les Valseuses   
+[] la grande bouffe  
+[] Delicatessen  
+[] Enter the Void  
+[] The elephant man      
+[] boogie nights   
+[] lost in translation   
+[] incendies   
+[] Barton Fink  
+[] Stranger Than Paradise  
+[] burnt by the sun   
+[] no man's land    
+[] the royal tenenbaums   
+[] mississipi burning   
+[] the swimming pool   
+[] le ruban blanc   
+[] uncle bonnmee    
+[] bamako   
+[] star wars   
+[] die hard   
+[] v for vendetta   
+[] lock stock and two smoking barrelsl
 
 ## Still Todo
-[ ] update readme.md with screenshot  
-[ ] add seo 
-[ ] check responsive version in landscape on all devices mode (including phone landscape)  
-[ ] load image as we scroll    
-[ ] use scss  
-[ ] can have only one absolut info box instead of two  
-[ ] get json from node server   
-[ ] create a better logo   
-[ ] css 3d effects for cards ?  
+[] update readme.md with screenshot    
+[] add seo    
+[] check responsive version in landscape on all devices mode (including phone landscape)    
+[] load image as we scroll    
+[] add filters
+[] sort movies by year of release 
+[] use scss    
+[] can have only one absolut info box instead of two    
+[] get json from node server   
+[] create a better logo   
+[] css 3d effects for cards ?    
 
 ## Origins & License
 
