@@ -1,42 +1,32 @@
-# Watch Before You Die 
+<p align="center">
+  <a href="https://watchbeforeyoudie.com/">
+    <img src="logo.png" alt="Watch Before You Die Logo" width="200" height="165">
+  </a>
+</p>
 
-An opinionated list of movies to watch before you die.  
+<h3 align="center"><a href="https://watchbeforeyoudie.com">Watch Before You Die</a></h3>
+
+<p align="center">
+  This repository is a compilation of movies to watch before you die.  
+  > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
+</p>
 
 
+## Table of contents
 
-## Todo
-[ ] update readme.md with screenshot  
-[ ] add seo 
-[ ] check responsive version in landscape on all devices mode (including phone landscape)  
-[ ] load image as we scroll    
-[ ] use scss  
-[ ] can have only one absolut info box instead of two  
-[ ] get json from node server   
+- [New movie submission](#Submit a new movie)
+- [Contribute](#bugs)
+- [Current movies candidate](#candidates)
+- [Still-todo](#Still-todo)
+- [Licensing](#Licensing)
 
-## Nice to have 
-[ ] create a better logo   
-[ ] css 3d effects for cards ?  
+## New movie submission 
+* Submissions of new movie are welcome by [creating an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
-## Done 
-[x] cleanup css properly (mobile first) and move to sass with variables  
-[x] change the title with proper font size    
-[x] finish to_be_continued card  
-[x] responsive mobile version small cards  
-[x] finish about card   
-[x] add hover with synopsis and watch trailer  
-[x] apply hover effects with synopsis  (https://freefrontend.com/css-movie-cards/)  
-[x] going back to correct movie when going back in mobile   
-[x] More link in mobile version is not vissible at all (click on full card)  
-[x] add all movies  
-[x] rewrite info  
-[x] change size of image    
-[x] add all trailers  
-[x] include loading animation for movies    
-[x] buy domain name  
-[x] seo and google analytics   
-[x] release on the web   
+## Contribute 
+* Any contributions (bugs, features requests...) are welcome, just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
-## Movies Candidates...
+## Current Movies Candidates
 [ ] being john malkovish  
 [ ] whisplash   
 [ ] underground  
@@ -82,3 +72,19 @@ An opinionated list of movies to watch before you die.
 [ ] ghost in the shell
 [ ] bad lieutenant
 
+## Still Todo
+[ ] update readme.md with screenshot  
+[ ] add seo 
+[ ] check responsive version in landscape on all devices mode (including phone landscape)  
+[ ] load image as we scroll    
+[ ] use scss  
+[ ] can have only one absolut info box instead of two  
+[ ] get json from node server   
+[ ] create a better logo   
+[ ] css 3d effects for cards ?  
+
+## Origins & License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Code and documentation copyright 2022. Code and documentation released under creativecommons.
