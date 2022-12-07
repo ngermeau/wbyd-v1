@@ -8,6 +8,12 @@
 This repository is a compilation of movies to watch before you die.   
 > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 
+<p align="center">
+  <a href="https://watchbeforeyoudie.com/">
+    <img src="screenhot.png" alt="Watch Before You Die Screenshot" width="267" height="372">
+  </a>
+</p>
+
 ## Table of contents
 
 - [Movie submission](#movie-submission)  
@@ -22,7 +28,7 @@ This repository is a compilation of movies to watch before you die.
 ## Contribution
 * For any contributions (bugs, features requests...) just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
-## Movies candidates
+## Movies Candidates
 [ ] bad lieutenant
 [ ] underground  
 [ ] metropolis  
