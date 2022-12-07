@@ -7,18 +7,18 @@
 <h3 align="center"><a href="https://watchbeforeyoudie.com">Watch Before You Die</a></h3>
 
 <p align="center">
-  This repository is a compilation of movies to watch before you die.  
+  This repository is a compilation of movies to watch before you die.   
   > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 </p>
 
 
 ## Table of contents
 
-- [New movie submission](#Submit a new movie)
-- [Contribute](#bugs)
-- [Current movies candidate](#candidates)
-- [Still-todo](#Still-todo)
-- [Licensing](#Licensing)
+- [New movie submission](#new-movie-submission)  
+- [Contribute](#bugs)  
+- [Current movies candidate](#candidates)  
+- [Still-todo](#Still-todo)  
+- [Licensing](#Licensing)  
 
 ## New movie submission 
 * Submissions of new movie are welcome by [creating an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
