@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://watchbeforeyoudie.com/">
-    <img src="logo.png" alt="Watch Before You Die Logo" width="200" height="165">
+    <img src="logo.png" alt="Watch Before You Die Logo" width="267" height="372">
   </a>
 </p>
 
