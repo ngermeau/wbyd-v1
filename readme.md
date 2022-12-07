@@ -4,29 +4,25 @@
   </a>
 </p>
 
-<h3 align="center"><a href="https://watchbeforeyoudie.com">Watch Before You Die</a></h3>
-
-<p align="center">
-  This repository is a compilation of movies to watch before you die.   
-</p>
-
-  > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
+## [Watch Before You Die](https://watchbeforeyoudie.com) 
+This repository is a compilation of movies to watch before you die.   
+> *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 
 ## Table of contents
 
-- [New movie submission](#new-movie-submission)  
-- [Contribute](#bugs)  
-- [Current movies candidate](#candidates)  
+- [Movie submission](#movie-submission)  
+- [Contribution](#contribution)  
+- [Movies candidates](#movies-candidates)
 - [Still todo](#Still-todo)  
 - [Licensing](#Licensing)  
 
-## New movie submission 
+## Movie submission 
 * Submissions of new movies are welcome by [creating an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
-## Contribute 
+## Contribution
 * For any contributions (bugs, features requests...) just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
-## Current Movies Candidates
+## Movies candidates
 [ ] bad lieutenant
 [ ] underground  
 [ ] metropolis  
