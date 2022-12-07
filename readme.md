@@ -5,7 +5,7 @@
 </p>
 
 ## [Watch Before You Die](https://watchbeforeyoudie.com) 
-This repository is a compilation of movies to watch before you die.   
+This repository is the code behind[watchbeforeyoudie.com website](https://watchbeforeyoudie.com) which publish a compilation of movies to watch before you die (no shit...).   
 > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 
 <p align="center">
@@ -80,7 +80,7 @@ This repository is a compilation of movies to watch before you die.
 [] check responsive version in landscape on all devices mode (including phone landscape)    
 [] load image as we scroll    
 [] add filters
-[] sort movies by year of release 
+[] sort movies 
 [] use scss    
 [] can have only one absolut info box instead of two    
 [] get json from node server   
