@@ -8,9 +8,9 @@
 
 <p align="center">
   This repository is a compilation of movies to watch before you die.   
-  *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 </p>
 
+  > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 
 ## Table of contents
 
@@ -21,32 +21,33 @@
 - [Licensing](#Licensing)  
 
 ## New movie submission 
-* Submissions of new movie are welcome by [creating an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
+* Submissions of new movies are welcome by [creating an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
 ## Contribute 
-* Any contributions (bugs, features requests...) are welcome, just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
+* For any contributions (bugs, features requests...) just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
 ## Current Movies Candidates
-[ ] being john malkovish  
-[ ] whisplash   
+[ ] bad lieutenant
 [ ] underground  
-[ ] A Prophet  
-[ ] 12 Angry Men   
-[ ] ikuru  
 [ ] metropolis  
 [ ] city of god 
 [ ] lost highway
+[ ] Jacob's Ladder  
+[ ] La haine   
+[ ] being john malkovish  
+[ ] whisplash   
+[ ] A Prophet  
+[ ] 12 Angry Men   
+[ ] ikuru  
 [ ] dark city 
 [ ] in the names of the father  
 [ ] le salaire de la peur  
 [ ] Children of Paradise  
-[ ] La haine   
 [ ] les Valseuses   
 [ ] la grande bouffe  
 [ ] The Umbrellas of Cherbourg  
 [ ] Delicatessen  
 [ ] Enter the Void  
-[ ] Jacob's Ladder  
 [ ] The elephant man   
 [ ] dr strangelove
 [ ] once upon a time in the west 
@@ -70,7 +71,6 @@
 [ ] lock stock 
 [ ] indiana jones 
 [ ] ghost in the shell
-[ ] bad lieutenant
 
 ## Still Todo
 [ ] update readme.md with screenshot  
