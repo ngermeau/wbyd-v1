@@ -8,9 +8,7 @@
 
 <p align="center">
   This repository is a compilation of movies to watch before you die.   
-</p>
-<p align="center">
-  > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
+  *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 </p>
 
 
