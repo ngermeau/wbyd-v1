@@ -8,6 +8,7 @@
 
 <p align="center">
   This repository is a compilation of movies to watch before you die.   
+
   > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 </p>
 
@@ -17,7 +18,7 @@
 - [New movie submission](#new-movie-submission)  
 - [Contribute](#bugs)  
 - [Current movies candidate](#candidates)  
-- [Still-todo](#Still-todo)  
+- [Still todo](#Still-todo)  
 - [Licensing](#Licensing)  
 
 ## New movie submission 
