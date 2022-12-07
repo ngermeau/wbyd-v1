@@ -5,7 +5,7 @@
 </p>
 
 ## [Watch Before You Die](https://watchbeforeyoudie.com) 
-This repository is the code behind [watchbeforeyoudie.com](https://watchbeforeyoudie.com) which publish a compilation of movies to watch before you die (no shit...).   
+This repository is the code behind [https://watchbeforeyoudie.com](https://watchbeforeyoudie.com) which publish a compilation of movies to watch before you die (no shit...).   
 > *No good movie is too long and no bad movie is short enough - Roger Ebert.*
 
 <p align="center">
