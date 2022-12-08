@@ -39,7 +39,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] dr strangelove   
 [] once upon a time in the west   
 [] The Umbrellas of Cherbourg   
-[] ghost in the shell   
 [] le salaire de la peur  
 [] city of god 
 [] lost highway
