@@ -1,6 +1,17 @@
 {
   "movies": [
     {
+      "title": "Ghost in the shell",
+      "year": 1976,
+      "director": "Mamoru Oshii",
+      "runningTime": "1h23",
+      "trailerLink": "https://www.youtube.com/watch?v=8RF09G8Ymqg",
+      "thumbPath": "img/ghost-in-the-shell.jpg",
+      "tag": "Animation - Action - SciFi",
+      "imdbScore": "7.9",
+      "synopsis": "A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master."
+    },
+    {
       "title": "taxi driver",
       "year": 1976,
       "director": "Martin Scorsese",
