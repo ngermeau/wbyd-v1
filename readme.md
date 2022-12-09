@@ -29,6 +29,7 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 * For any contributions (bugs, features requests...) just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
 ## Movies Candidates
+[] breaking the waves
 [] seven samourai  
 [] the wizard of oz
 [] bad lieutenant
@@ -41,7 +42,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] The Umbrellas of Cherbourg   
 [] le salaire de la peur  
 [] city of god 
-[] lost highway
 [] shawshank redemption
 [] Jacob's Ladder  
 [] La haine   
