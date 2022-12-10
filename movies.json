@@ -1,6 +1,17 @@
 {
   "movies": [
     {
+      "title": "city of god",
+      "year": "2002",
+      "director": "Fer Meirelles, Kátia Lund",
+      "runningTime": "2h10min",
+      "trailerLink": "https://www.youtube.com/watch?v=dcUOO4Itgmw",
+      "thumbPath": "img/city-of-god.jpg",
+      "tag": "Crime - Drama",
+      "imdbScore": "8.6",
+      "synopsis": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin."
+    },
+    {
       "title": "Lost Highway",
       "year": "1997",
       "director": "David Lynch",

@@ -50,6 +50,7 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] A Prophet  
 [] 12 Angry Men   
 [] ikuru  
+[] american psycho
 [] dark city 
 [] in the names of the father  
 [] Children of Paradise  
