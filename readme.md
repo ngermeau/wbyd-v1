@@ -34,7 +34,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] the wizard of oz
 [] bad lieutenant
 [] stalker 
-[] underground  
 [] metropolis  
 [] indiana jones   
 [] dr strangelove   

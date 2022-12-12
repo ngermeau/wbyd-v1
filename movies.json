@@ -1,6 +1,17 @@
 {
   "movies": [
     {
+      "title": "underground",
+      "year": "1995",
+      "director": "Emir Kusturica",
+      "runningTime": "2h47min",
+      "trailerLink": "https://www.youtube.com/watch?v=rYTvmLvLchs",
+      "thumbPath": "img/underground.jpg",
+      "tag": "Comedy - Drama - Fantasy",
+      "imdbScore": "8.1",
+      "synopsis": "A group of Serbian socialists prepares for the war in a surreal underground filled by parties, tragedies, love, and hate."
+    },
+    {
       "title": "city of god",
       "year": "2002",
       "director": "Fer Meirelles, Kátia Lund",
