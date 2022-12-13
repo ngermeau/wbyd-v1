@@ -34,7 +34,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] the wizard of oz
 [] stalker 
 [] metropolis  
-[] indiana jones   
 [] dr strangelove   
 [] once upon a time in the west   
 [] The Umbrellas of Cherbourg   
