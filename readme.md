@@ -32,7 +32,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] breaking the waves
 [] seven samourai  
 [] the wizard of oz
-[] bad lieutenant
 [] stalker 
 [] metropolis  
 [] indiana jones   
