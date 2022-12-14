@@ -38,8 +38,8 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] once upon a time in the west   
 [] The Umbrellas of Cherbourg   
 [] le salaire de la peur  
-[] city of god 
 [] shawshank redemption
+[] planet of the apes 
 [] Jacob's Ladder  
 [] La haine   
 [] being john malkovish  
@@ -69,7 +69,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] le ruban blanc   
 [] uncle bonnmee    
 [] bamako   
-[] star wars   
 [] die hard   
 [] v for vendetta   
 [] lock stock and two smoking barrelsl
