@@ -1,10 +1,21 @@
 {
   "movies": [
     {
+      "title": "Breaking the Waves",
+      "year": "1996",
+      "director": "Lars von Trier",
+      "runningTime": "2h39",
+      "trailerLink": "https://www.youtube.com/watch?v=SHqZh-9AiCs",
+      "thumbPath": "img/Breaking-the-Waves.jpg",
+      "tag": "Drama",
+      "imdbScore": "7.8",
+      "synopsis": "Oilman Jan is paralyzed in an accident. His wife, who prayed for his return, feels guilty; even more, when Jan urges her to have sex with another."
+    },
+    {
       "title": "Star Wars: A New Hope",
       "year": "1977",
       "director": "George Lucas",
-      "runningTime": "2h1min",
+      "runningTime": "2h1",
       "trailerLink": "https://www.youtube.com/watch?v=vZ734NWnAHA",
       "thumbPath": "img/star-wars-a-new-hope.jpg",
       "tag": "Action - Adventure - Fantasy",
@@ -15,7 +26,7 @@
       "title": "Indiana Jones and the Raiders of the Lost Ark",
       "year": "1981",
       "director": "Steven Spielberg",
-      "runningTime": "1h55min",
+      "runningTime": "1h55",
       "trailerLink": "https://www.youtube.com/watch?v=0xQSIdSRlAk",
       "thumbPath": "img/indiana-jones-and-the-raiders-of-the-lost-ark.jpg",
       "tag": "Action - Adventure",
@@ -26,7 +37,7 @@
       "title": "underground",
       "year": "1995",
       "director": "Emir Kusturica",
-      "runningTime": "2h47min",
+      "runningTime": "2h47",
       "trailerLink": "https://www.youtube.com/watch?v=rYTvmLvLchs",
       "thumbPath": "img/underground.jpg",
       "tag": "Comedy - Drama - Fantasy",
@@ -37,7 +48,7 @@
       "title": "city of god",
       "year": "2002",
       "director": "Fer Meirelles, Kátia Lund",
-      "runningTime": "2h10min",
+      "runningTime": "2h10",
       "trailerLink": "https://www.youtube.com/watch?v=dcUOO4Itgmw",
       "thumbPath": "img/city-of-god.jpg",
       "tag": "Crime - Drama",
@@ -48,7 +59,7 @@
       "title": "Lost Highway",
       "year": "1997",
       "director": "David Lynch",
-      "runningTime": "2h14min",
+      "runningTime": "2h14",
       "trailerLink": "https://www.youtube.com/watch?v=1nKjO9QCSic",
       "thumbPath": "img/lost-highway.jpg",
       "tag": "Mystery - Thriller",
@@ -119,7 +130,7 @@
       "thumbPath": "img/blade-runner.jpg",
       "tag": "Action - Drama - SciFi",
       "imdbScore": "8.1",
-      "synopsis": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator."
+      "synopsis": "A blade runner must pursue and terate four replicants who stole a ship in space, and have returned to Earth to find their creator."
     },
     {
       "title": "Brazil",
@@ -163,7 +174,7 @@
       "thumbPath": "img/reservoir-dogs.jpg",
       "tag": "Crime - Thriller",
       "imdbScore": "8.3",
-      "synopsis": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant."
+      "synopsis": "When a simple jewelry heist goes horribly wrong, the surviving crials begin to suspect that one of them is a police informant."
     },
     {
       "title": "The Shining",
@@ -251,7 +262,7 @@
       "thumbPath": "img/blue-velvet.jpg",
       "tag": "Drama - Crime - Mystery",
       "imdbScore": "7.7",
-      "synopsis": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child."
+      "synopsis": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic crials who have kidnapped her child."
     },
     {
       "title": "The Thing",
@@ -284,13 +295,13 @@
       "thumbPath": "img/scarface.jpg",
       "tag": "Crime - Drama",
       "imdbScore": "8.3",
-      "synopsis": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed."
+      "synopsis": "In 1980 Miami, a detered Cuban immigrant takes over a drug cartel and succumbs to greed."
     },
     {
       "title": "clerks",
       "year": "1994",
       "director": "Kevin Smith",
-      "runningTime": "1h 32min",
+      "runningTime": "1h32",
       "trailerLink": "https://www.youtube.com/watch?v=Mlfn5n-E2WE",
       "thumbPath": "img/clerks.jpg",
       "tag": "Comedy",
@@ -401,7 +412,7 @@
       "title": "Akira",
       "year": "1988",
       "director": "Katsuhiro Ôtomo",
-      "runningTime": "2h 4min",
+      "runningTime": "2h 4",
       "trailerLink": "https://www.youtube.com/watch?v=PgblKdebADQ",
       "thumbPath": "img/akira.jpg",
       "tag": "Animation - Action - Drama",
@@ -428,7 +439,7 @@
       "thumbPath": "img/one-flew-over-the-cuckoos-nest.jpg",
       "tag": "Drama",
       "imdbScore": "8.7",
-      "synopsis": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse."
+      "synopsis": "In the Fall of 1963, a Korean War veteran and crial pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse."
     },
     {
       "title": "The Name of the Rose",
@@ -445,7 +456,7 @@
       "title": "full metal jacket",
       "year": "1987",
       "director": "Stanley Kubrick",
-      "runningTime": "1h 56min",
+      "runningTime": "1h 56",
       "trailerLink": "https://www.youtube.com/watch?v=n2i917l5RFc",
       "thumbPath": "img/full-metal-jacket.jpg",
       "tag": "Drama - War",
@@ -456,7 +467,7 @@
       "title": "casablanca",
       "year": "1942",
       "director": "Michael Curtiz",
-      "runningTime": "1h 42min",
+      "runningTime": "1h 42",
       "trailerLink": "https://www.youtube.com/watch?v=MF7JH_54d8c",
       "thumbPath": "img/casablanca.jpg",
       "tag": "Drama - Romance - War",
@@ -467,29 +478,29 @@
       "title": "psycho",
       "year": "1960",
       "director": "Alfred Hitchcock",
-      "runningTime": "1h 49min",
+      "runningTime": "1h 49",
       "trailerLink": "https://www.youtube.com/watch?v=DTJQfFQ40lI",
       "thumbPath": "img/psycho.jpg",
       "tag": "Horror - Mystery - Thriller",
       "imdbScore": "8.5",
-      "synopsis": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother."
+      "synopsis": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the doation of his mother."
     },
     {
       "title": "vertigo",
       "year": "1958",
       "director": "Alfred Hitchcock",
-      "runningTime": "2h 8min",
+      "runningTime": "2h 8",
       "trailerLink": "https://www.youtube.com/watch?v=Z5jvQwwHQNY",
       "thumbPath": "img/vertigo.jpg",
       "tag": "Mystery - Romance - Thriller",
       "imdbScore": "8.3",
-      "synopsis": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed."
+      "synopsis": "A former San Francisco police detective juggles wrestling with his personal demons and becog obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed."
     },
     {
       "title": "modern times",
       "year": "1936",
       "director": "Charles Chaplin",
-      "runningTime": "1h 27min",
+      "runningTime": "1h 27",
       "trailerLink": "https://www.youtube.com/watch?v=NNznUyDmSFc",
       "thumbPath": "img/modern-times.jpg",
       "tag": "Comedy - Drama - Romance",
@@ -500,7 +511,7 @@
       "title": "memento",
       "year": "2000",
       "director": "Christopher Nolan",
-      "runningTime": "1h 53min",
+      "runningTime": "1h 53",
       "trailerLink": "https://www.youtube.com/watch?v=4CV41hoyS8A",
       "thumbPath": "img/memento.jpg",
       "tag": "Mystery - Thriller",
@@ -516,13 +527,13 @@
       "thumbPath": "img/fargo.jpg",
       "tag": "Crime - Drama - Thriller",
       "imdbScore": "8.9",
-      "synopsis": "Various chronicles of deception, intrigue and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota."
+      "synopsis": "Various chronicles of deception, intrigue and murder in and around frozen nesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota."
     },
     {
       "title": "raging bull",
       "year": "1980",
       "director": "Martin Scorsese",
-      "runningTime": "2h9min",
+      "runningTime": "2h9",
       "trailerLink": "https://www.youtube.com/watch?v=yUp6d79WRVI",
       "thumbPath": "img/raging-bull.jpg",
       "tag": "Biography - Drama - Sport",
@@ -533,7 +544,7 @@
       "title": "chinatown",
       "year": "1974",
       "director": "Roman Polanski",
-      "runningTime": "2h10min",
+      "runningTime": "2h10",
       "trailerLink": "https://www.youtube.com/watch?v=p39LFdGI-YA",
       "thumbPath": "img/chinatown.jpg",
       "tag": "Drama - Mystery - Thriller",
@@ -543,13 +554,13 @@
     {
       "title": "the deer hunter",
       "year": "1978",
-      "director": "Michael Cimino",
-      "runningTime": "3h3min",
+      "director": "Michael Cio",
+      "runningTime": "3h3",
       "trailerLink": "https://www.youtube.com/watch?v=3Gqit3zVmyc",
       "thumbPath": "img/the-deer-hunter.jpg",
       "tag": "Drama - War",
       "imdbScore": "8.1",
-      "synopsis": "An in-depth examination of the ways in which the Vietnam War impacts and disrupts the lives of several friends in a small steel mill town in Pennsylvania."
+      "synopsis": "An in-depth exaation of the ways in which the Vietnam War impacts and disrupts the lives of several friends in a small steel mill town in Pennsylvania."
     },
     {
       "title": "platoon",
@@ -560,13 +571,13 @@
       "thumbPath": "img/platoon.jpg",
       "tag": "Drama - War",
       "imdbScore": "8.1",
-      "synopsis": "Chris Taylor, a neophyte recruit in Vietnam, finds himself caught in a battle of wills between two sergeants, one good and the other evil. A shrewd examination of the brutality of war and the duality of man in conflict."
+      "synopsis": "Chris Taylor, a neophyte recruit in Vietnam, finds himself caught in a battle of wills between two sergeants, one good and the other evil. A shrewd exaation of the brutality of war and the duality of man in conflict."
     },
     {
       "title": "the mission",
       "year": "1986",
       "director": "Roland Joffé",
-      "runningTime": "2h5min",
+      "runningTime": "2h5",
       "trailerLink": "https://www.youtube.com/watch?v=HU14R9hbUFc",
       "thumbPath": "img/the-mission.jpg",
       "tag": "Adventure - Drama - History",
@@ -577,7 +588,7 @@
       "title": "No Country for Old Men",
       "year": "2007",
       "director": "Ethan Coen, Joel Coen",
-      "runningTime": "2h2min",
+      "runningTime": "2h2",
       "trailerLink": "https://www.youtube.com/watch?v=38A__WT3-o0",
       "thumbPath": "img/no-country-for-old-men.jpg",
       "tag": "Crime - Drama - Thriller",
@@ -588,18 +599,18 @@
       "title": "parasite",
       "year": "2019",
       "director": "Bong Joon Ho",
-      "runningTime": "2h12min",
+      "runningTime": "2h12",
       "trailerLink": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
       "thumbPath": "img/parasite.jpg",
       "tag": "Drama - Thriller",
       "imdbScore": "8.5",
-      "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+      "synopsis": "Greed and class discriation threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
     },
     {
       "title": "there will be blood",
       "year": "2007",
       "director": "Paul Thomas Anderson",
-      "runningTime": "2h38min",
+      "runningTime": "2h38",
       "trailerLink": "https://www.youtube.com/watch?v=FeSLPELpMeM",
       "thumbPath": "img/there-will-be-blood.jpg",
       "tag": "Drama",
@@ -610,7 +621,7 @@
       "title": "Schindler's List",
       "year": "1993",
       "director": "Steven Spielberg",
-      "runningTime": "3h15min",
+      "runningTime": "3h15",
       "trailerLink": "https://www.youtube.com/watch?v=gG22XNhtnoY",
       "thumbPath": "img/schindler-s-list.jpg",
       "tag": "Biography - Drama - History",
@@ -621,18 +632,18 @@
       "title": "inception",
       "year": "2010",
       "director": "Christopher Nolan",
-      "runningTime": "2h28min",
+      "runningTime": "2h28",
       "trailerLink": "https://www.youtube.com/watch?v=YoHD9XEInc0",
       "thumbPath": "img/inception.jpg",
       "tag": "Action - Adventure - Sci-Fi",
       "imdbScore": "8.8",
-      "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
+      "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the d of a C.E.O., but his tragic past may doom the project and his team to disaster."
     },
     {
       "title": "jaws",
       "year": "1975",
       "director": "Steven Spielberg",
-      "runningTime": "2h4min",
+      "runningTime": "2h4",
       "trailerLink": "https://www.youtube.com/watch?v=U1fu_sA7XhE",
       "thumbPath": "img/jaws.jpg",
       "tag": "Adventure - Thriller",
@@ -643,7 +654,7 @@
       "title": "amadeus",
       "year": "1984",
       "director": "Milos Forman",
-      "runningTime": "2h40min",
+      "runningTime": "2h40",
       "trailerLink": "https://www.youtube.com/watch?v=r7kWQj9FCGY",
       "thumbPath": "img/amadeus.jpg",
       "tag": "Biography - Drama - Music",
@@ -654,7 +665,7 @@
       "title": "spirited away",
       "year": "2001",
       "director": "Hayao Miyazaki",
-      "runningTime": "2h5min",
+      "runningTime": "2h5",
       "trailerLink": "https://www.youtube.com/watch?v=ByXuk9QqQkk",
       "thumbPath": "img/spirited-away.jpg",
       "tag": "Animation - Adventure - Family",
@@ -665,7 +676,7 @@
       "title": "magnolia",
       "year": "1999",
       "director": "Paul Thomas Anderson",
-      "runningTime": "3h8min",
+      "runningTime": "3h8",
       "trailerLink": "https://www.youtube.com/watch?v=KnamcFv_N9Q",
       "thumbPath": "img/magnolia.jpg",
       "tag": "Drama",
@@ -673,12 +684,12 @@
       "synopsis": "An epic mosaic of interrelated characters in search of love, forgiveness and meaning in the San Fernando Valley."
     },
     {
-      "title": "the terminator",
+      "title": "the terator",
       "year": "1984",
       "director": "James Cameron",
-      "runningTime": "1h47min",
+      "runningTime": "1h47",
       "trailerLink": "https://www.youtube.com/watch?v=k64P4l2Wmeg",
-      "thumbPath": "img/the-terminator.jpg",
+      "thumbPath": "img/the-terator.jpg",
       "tag": "Action - Sci-Fi",
       "imdbScore": "8.1",
       "synopsis": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvat..."
@@ -687,7 +698,7 @@
       "title": "West Side Story",
       "year": "2021",
       "director": "Steven Spielberg",
-      "runningTime": "2h36min",
+      "runningTime": "2h36",
       "trailerLink": "https://www.youtube.com/watch?v=NF1L3NorO3E",
       "thumbPath": "img/west-side-story.jpg",
       "tag": "Crime - Drama - Musical",
@@ -698,7 +709,7 @@
       "title": "The Thin Red Line",
       "year": "1998",
       "director": "Terrence Malick",
-      "runningTime": "2h50min",
+      "runningTime": "2h50",
       "trailerLink": "https://www.youtube.com/watch?v=mKl5_OxKBn8",
       "thumbPath": "img/the-thin-red-line.jpg",
       "tag": "Drama - History - War",
@@ -709,7 +720,7 @@
       "title": "easy rider",
       "year": "1969",
       "director": "Dennis Hopper",
-      "runningTime": "1h35min",
+      "runningTime": "1h35",
       "trailerLink": "https://www.youtube.com/watch?v=iLdTZaKMQ9c",
       "thumbPath": "img/easy-rider.jpg",
       "tag": "Adventure - Drama",
