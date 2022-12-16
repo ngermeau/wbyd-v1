@@ -1,6 +1,17 @@
 {
   "movies": [
     {
+      "title": "once upon a time in america",
+      "year": "1984",
+      "director": "Sergio Leone",
+      "runningTime": "3h49",
+      "trailerLink": "https://www.youtube.com/watch?v=LcpCRyNo8T8",
+      "thumbPath": "img/once-upon-a-time-in-america.jpg",
+      "tag": "Crime - Drama",
+      "imdbScore": "8.3",
+      "synopsis": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan 35 years later, where he must once again confront the ghosts and regrets of his old life."
+    },
+    {
       "title": "Breaking the Waves",
       "year": "1996",
       "director": "Lars von Trier",
