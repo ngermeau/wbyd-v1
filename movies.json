@@ -1,6 +1,17 @@
 {
   "movies": [
     {
+      "title": "american psycho",
+      "year": "2000",
+      "director": "Mary Harron",
+      "runningTime": "1h 42min",
+      "trailerLink": "https://www.youtube.com/watch?v=5YnGhW4UEhc",
+      "thumbPath": "img/american-psycho.jpg",
+      "tag": "Crime - Drama - Horror",
+      "imdbScore": "7.6",
+      "synopsis": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies."
+    },
+    {
       "title": "once upon a time in america",
       "year": "1984",
       "director": "Sergio Leone",
@@ -17,7 +28,7 @@
       "director": "Lars von Trier",
       "runningTime": "2h39",
       "trailerLink": "https://www.youtube.com/watch?v=SHqZh-9AiCs",
-      "thumbPath": "img/Breaking-the-Waves.jpg",
+      "thumbPath": "img/breaking-the-waves.jpg",
       "tag": "Drama",
       "imdbScore": "7.8",
       "synopsis": "Oilman Jan is paralyzed in an accident. His wife, who prayed for his return, feels guilty; even more, when Jan urges her to have sex with another."
