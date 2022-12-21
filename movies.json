@@ -1,10 +1,21 @@
 {
   "movies": [
     {
+      "title": "once upon a time in the west",
+      "year": "1968",
+      "director": "Sergio Leone",
+      "runningTime": "2h45min",
+      "trailerLink": "https://www.youtube.com/watch?v=c8CJ6L0I6W8",
+      "thumbPath": "img/once-upon-a-time-in-the-west.jpg",
+      "tag": "Western",
+      "imdbScore": "8.5",
+      "synopsis": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad."
+    },
+    {
       "title": "american psycho",
       "year": "2000",
       "director": "Mary Harron",
-      "runningTime": "1h 42min",
+      "runningTime": "1h42min",
       "trailerLink": "https://www.youtube.com/watch?v=5YnGhW4UEhc",
       "thumbPath": "img/american-psycho.jpg",
       "tag": "Crime - Drama - Horror",

@@ -34,7 +34,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] stalker 
 [] metropolis  
 [] dr strangelove   
-[] once upon a time in the west   
 [] The Umbrellas of Cherbourg   
 [] le salaire de la peur  
 [] shawshank redemption
