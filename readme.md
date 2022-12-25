@@ -29,25 +29,23 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 * For any contributions (bugs, features requests...) just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
 ## Movies Candidates
-[] seven samourai  
-[] the wizard of oz
-[] stalker 
-[] metropolis  
-[] The Umbrellas of Cherbourg   
-[] le salaire de la peur  
-[] shawshank redemption
-[] planet of the apes 
+[] seven samourai   
+[] the wizard of oz   
+[] stalker    
+[] metropolis    
+[] The Umbrellas of Cherbourg    
+[] le salaire de la peur    
+[] planet of the apes   
 [] Jacob's Ladder  
 [] La haine   
-[] being john malkovish  
+[] being john malkovish    
 [] whisplash   
 [] A Prophet  
-[] 12 Angry Men   
+[] 12 Angry Men    
 [] ikuru  
-[] dark city 
+[] dark city    
 [] in the names of the father  
 [] Children of Paradise  
-[] les Valseuses   
 [] la grande bouffe  
 [] Delicatessen  
 [] Enter the Void  
@@ -55,7 +53,7 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] lost in translation   
 [] incendies   
 [] Barton Fink  
-[] Stranger Than Paradise  
+[] Stranger Than Paradise   
 [] burnt by the sun   
 [] no man's land    
 [] the royal tenenbaums   
@@ -65,16 +63,14 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] uncle bonnmee    
 [] bamako   
 [] die hard   
-[] v for vendetta   
-[] lock stock and two smoking barrelsl
+[] lock stock and two smoking barrels   
 
 ## Still Todo
-[] update readme.md with screenshot    
 [] add seo    
-[] check responsive version in landscape on all devices mode (including phone landscape)    
 [] load image as we scroll    
-[] add filters
-[] sort movies 
+[] sort movies   
+[] check responsive version in landscape on all devices mode (including phone landscape)     
+[] add filters   
 [] use scss    
 [] can have only one absolut info box instead of two    
 [] get json from node server   
