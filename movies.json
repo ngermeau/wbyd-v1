@@ -1,6 +1,17 @@
 {
   "movies": [
     {
+      "title": "A prophet",
+      "year": "2009",
+      "director": "Jacques Audiard",
+      "runningTime": "2h35",
+      "trailerLink": "https://www.youtube.com/watch?v=l69ARbQt-Ko",
+      "thumbPath": "img/a-prophet.jpg",
+      "tag": "Crime - Drama",
+      "imdbScore": "7.8",
+      "synopsis": "A young Algerian man is sent to a French prison."
+    },
+    {
       "title": "V for Vendetta",
       "year": "2005",
       "director": "James McTeigue",

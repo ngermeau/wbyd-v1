@@ -29,9 +29,11 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 * For any contributions (bugs, features requests...) just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
 ## Movies Candidates
+[] lock stock and two smoking barrels   
 [] seven samourai   
-[] the wizard of oz   
 [] stalker    
+[] pi 
+[] the wizard of oz   
 [] metropolis    
 [] The Umbrellas of Cherbourg    
 [] le salaire de la peur    
@@ -56,6 +58,7 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] Stranger Than Paradise   
 [] burnt by the sun   
 [] no man's land    
+[] el topo
 [] the royal tenenbaums   
 [] mississipi burning   
 [] the swimming pool   
@@ -63,7 +66,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 [] uncle bonnmee    
 [] bamako   
 [] die hard   
-[] lock stock and two smoking barrels   
 
 ## Still Todo
 [] add seo    
