@@ -29,7 +29,6 @@ This repository is the code behind [https://watchbeforeyoudie.com](https://watch
 * For any contributions (bugs, features requests...) just send a PR, or [create an issue](https://github.com/ngermeau/watch_before_you_die/issues/new)
 
 ## Movies Candidates
-[] lock stock and two smoking barrels   
 [] seven samourai   
 [] stalker    
 [] pi 
